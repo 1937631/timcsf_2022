@@ -484,6 +484,56 @@ th {
 
 /******** Typographie *********/
 /****** BASE ******/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font: 0.8em Rubik, Arial, Helvetica, sans-serif;
+}
+
+.contenu {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.page {
+  float: left;
+  width: 70%;
+}
+@media only screen and (max-width: 735px) {
+  .page {
+    float: none;
+    width: 100%;
+    border-bottom: 1px solid #333;
+  }
+}
+
+.piedPage {
+  max-width: 1400px;
+  margin: 0 0;
+  background-color: #2B5BA1;
+  clear: both;
+}
+.piedPage .navigation__secondaire ul {
+  margin-left: 20px;
+  padding: 30px 0 0 0;
+  list-style: none;
+}
+.piedPage .navigation__secondaire ul li {
+  margin: 0 0 30px 0;
+}
+.piedPage .navigation__secondaire ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.piedPage .navigation__secondaire ul li a:hover {
+  text-decoration: underline;
+}
+
 /** Typographie **/
 /**
 * @author Prenom Nom courriel
@@ -497,7 +547,7 @@ html {
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: Rubik, sans-serif;
   font-size: 16px;
   /* 16px pour toutes les largeurs d'écran */
   font-size: 1.6rem;
@@ -510,7 +560,7 @@ h2,
 .titreNiveau2,
 h3,
 .titreNiveau3 {
-  font-family: Futura, sans-serif;
+  font-family: Rubik, sans-serif;
   font-weight: 500;
 }
 
@@ -563,7 +613,7 @@ h3--desktop,
 }
 
 .texte {
-  font-family: Arial, sans-serif;
+  font-family: Rubik, sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
   line-height: 1.375;

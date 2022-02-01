@@ -1,0 +1,24 @@
+.piedPage {
+  max-width: 1400px;
+  margin: 0 0;
+  background-color: #2B5BA1;
+  clear: both;
+}
+.piedPage .navigation__secondaire ul {
+  margin-left: 20px;
+  padding: 30px 0 0 0;
+  list-style: none;
+}
+.piedPage .navigation__secondaire ul li {
+  margin: 0 0 30px 0;
+}
+.piedPage .navigation__secondaire ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.piedPage .navigation__secondaire ul li a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=piedpage.css.map */
