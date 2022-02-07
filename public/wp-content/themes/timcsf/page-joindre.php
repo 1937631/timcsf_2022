@@ -3,7 +3,7 @@
 //à mettre dans la page pour afficher les responsables
 //**************************************************
 
-
+get_header();
 echo "page-joindre.php";
 //Requête pour obtenir les infos des responsables
 $args = array(
