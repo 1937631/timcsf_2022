@@ -1,0 +1,47 @@
+.entete{
+  .logo{
+    margin: 10px 0 10px 20px;
+
+  }
+  .menu__hamburger{
+    float: right;
+    margin: 10px 20px 10px 0;
+  }
+  div{
+    margin: 0 0 40px 0;
+    img{
+      width: 100%;
+      object-fit: cover;
+      position: absolute;
+      filter: brightness(35%);
+      @media(min-width: 600px){
+        display: none;
+      }
+    }
+    h1, h2, .ligneRouge, .ligneViolet{
+
+      position: relative;
+      color: white;
+      padding-left: 20px;
+    }
+    h1{
+      padding-top: 40px;
+    }
+    h2{
+      text-transform: none;
+    }
+    .ligneRouge{
+
+      transform: translateY(600%) translateX(5%);
+      width: 90%;
+      height: 5px;
+      background-color: #BB3E3E;
+    }
+    .ligneViolet{
+      transform: translateX(10%);
+      height: 5px;
+      width: 50%;
+      background-color: #A388B8;
+    }
+  }
+}

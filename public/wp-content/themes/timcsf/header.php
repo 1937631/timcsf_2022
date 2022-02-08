@@ -16,12 +16,14 @@
 </head>
 <body>
 <header class="entete">
-    <img src="http://localhost/timcsf_2022/public/wp-content/uploads/2022/02/logoTim.png" alt="logo_tim">
-    <img src="http://localhost/timcsf_2022/public/wp-content/uploads/2022/02/menuBurger.png" alt="menu_hamburger">
+    <img class="logo" src="http://localhost/timcsf_2022/public/wp-content/uploads/2022/02/logoTim.png" alt="logo_tim">
+    <img class="menu__hamburger" src="http://localhost/timcsf_2022/public/wp-content/uploads/2022/02/menuBurger.png" alt="menu_hamburger">
     <div>
-        <img src="" alt="banniere">
+        <img src="<?php echo get_template_directory_uri();?>/liaisons/images/_MG_8408.jpg" alt="banniere">
+        <div class="ligneRouge"></div>
         <h1><?php bloginfo("name");?></h1>
         <h2><?php bloginfo("description");?></h2>
+        <div class="ligneViolet"></div>
     </div>
 
 </header>

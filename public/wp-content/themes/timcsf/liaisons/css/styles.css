@@ -512,7 +512,6 @@ body {
 }
 
 .piedPage {
-  max-width: 1400px;
   margin: 0 0;
   background-color: #2B5BA1;
   clear: both;
@@ -532,6 +531,446 @@ body {
 }
 .piedPage .navigation__secondaire ul li a:hover {
   text-decoration: underline;
+}
+
+.page__accueil h2 {
+  text-transform: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+.page__accueil .section__formation {
+  text-align: center;
+  width: 340px;
+  margin: 0 10px 0 10px;
+}
+@media (min-width: 600px) {
+  .page__accueil .section__formation {
+    display: inline-block;
+    width: 40%;
+    margin-right: 40px;
+  }
+}
+.page__accueil .section__formation div {
+  height: 90px;
+  width: 33%;
+  float: left;
+  text-align: center;
+  line-height: 90px;
+  transition: 0.5s;
+}
+@media (min-width: 600px) {
+  .page__accueil .section__formation div {
+    height: 7em;
+    line-height: 7em;
+    font-size: 20px;
+  }
+}
+.page__accueil .section__formation div:first-of-type, .page__accueil .section__formation div:last-of-type {
+  background-color: #BB3E3E;
+  border-radius: 0 48px 0 0;
+  color: white;
+}
+.page__accueil .section__formation div:first-of-type:hover, .page__accueil .section__formation div:last-of-type:hover {
+  border-radius: 0 0 48px 0;
+}
+.page__accueil .section__formation div:nth-of-type(2) {
+  background-color: #2B5BA1;
+  border-radius: 0 0 48px 0;
+  color: white;
+}
+.page__accueil .section__formation div:nth-of-type(2):hover {
+  border-radius: 0 0 0 48px;
+}
+.page__accueil .section__formation div:nth-of-type(3), .page__accueil .section__formation div:nth-of-type(4) {
+  color: white;
+  background-color: black;
+  border-radius: 48px 0 0 0;
+}
+.page__accueil .section__formation div:nth-of-type(3):hover, .page__accueil .section__formation div:nth-of-type(4):hover {
+  border-radius: 0 48px 0 0;
+}
+.page__accueil .section__formation div:nth-of-type(5) {
+  background-color: #A388B8;
+  border-radius: 0 0 48px 0;
+}
+.page__accueil .section__formation div:nth-of-type(5):hover {
+  border-radius: 0 0 0 48px;
+}
+.page__accueil .section__formation div:nth-of-type(6), .page__accueil .section__formation div:nth-of-type(7) {
+  background-color: #D7D7D7;
+  border-radius: 0 0 0 48px;
+}
+.page__accueil .section__formation div:nth-of-type(6):hover, .page__accueil .section__formation div:nth-of-type(7):hover {
+  border-radius: 48px 0 0 0;
+}
+.page__accueil .section__formation div:nth-of-type(7) {
+  width: 66%;
+  border-radius: 0 48px 0 48px;
+}
+.page__accueil .section__formation div:nth-of-type(7):hover {
+  border-radius: 48px 0 48px 0;
+}
+.page__accueil .section__formation div:last-of-type {
+  border-radius: 48px 0 0 0;
+  margin-bottom: 25px;
+}
+.page__accueil .section__formation div:last-of-type:hover {
+  border-radius: 0 48px 0 0;
+}
+.page__accueil .section__formation h3 {
+  margin: 0;
+  font-size: 1.5em;
+}
+.page__accueil .section__formation a {
+  margin-bottom: 25px;
+  color: #1E98D7;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.page__accueil .section__formation a:hover {
+  text-decoration: underline;
+}
+.page__accueil .section__projets {
+  background-color: #D7D7D7;
+  margin-right: 20px;
+  position: relative;
+  height: 180px;
+}
+@media (min-width: 600px) {
+  .page__accueil .section__projets {
+    display: inline-block;
+    width: 35%;
+    position: absolute;
+  }
+}
+.page__accueil .section__projets h2 {
+  padding: 20px 0 0 20px;
+}
+@media (min-width: 600px) {
+  .page__accueil .section__projets h2 {
+    padding: 0 0 0 20px;
+    margin: 10px;
+  }
+}
+.page__accueil .section__projets .carre {
+  background-color: #2B5BA1;
+  margin-right: 0;
+  position: absolute;
+  margin-left: 20px;
+  width: 100%;
+  height: 230px;
+}
+@media (min-width: 600px) {
+  .page__accueil .section__projets .carre {
+    height: 21em;
+  }
+}
+.page__accueil .section__projets .carre p {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  text-align: center;
+}
+.page__accueil .section__projets .carre .fleche--droite {
+  width: 0;
+  height: 0;
+  border-top: 35px solid transparent;
+  border-bottom: 35px solid transparent;
+  border-left: 35px solid black;
+  border-radius: 10px;
+  margin-left: 85%;
+  transition: 0.3s;
+}
+.page__accueil .section__projets .carre .fleche--droite:hover {
+  border-left: 35px solid #D7D7D7;
+  cursor: pointer;
+}
+@media (min-width: 600px) {
+  .page__accueil .section__projets .carre .fleche--droite {
+    margin-top: 12%;
+  }
+}
+.page__accueil .section__stages {
+  margin: 0 20px 0 20px;
+}
+.page__accueil .section__stages div {
+  height: 30px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.page__accueil .section__stages div:first-of-type {
+  background-color: #E5C1C1;
+}
+.page__accueil .section__stages div:first-of-type h3 {
+  background-color: #BB3E3E;
+}
+.page__accueil .section__stages div:first-of-type:hover h3 {
+  padding-left: 10%;
+}
+.page__accueil .section__stages div:nth-of-type(2) {
+  background-color: #DCC8EC;
+}
+.page__accueil .section__stages div:nth-of-type(2) h3 {
+  background-color: #A388B8;
+}
+.page__accueil .section__stages div:nth-of-type(2):hover h3 {
+  padding-left: 30%;
+}
+.page__accueil .section__stages div:last-of-type {
+  background-color: #ACBED9;
+}
+.page__accueil .section__stages div:last-of-type h3 {
+  background-color: #2B5BA1;
+}
+.page__accueil .section__stages div:last-of-type:hover h3 {
+  padding-left: 60%;
+}
+.page__accueil .section__stages div h3 {
+  height: 30px;
+  backdrop-filter: opacity(50%);
+  transition: 0.7s;
+  width: fit-content;
+  padding: 0 20px 0 20px;
+  line-height: 30px;
+  color: white;
+  border-radius: 20px;
+}
+.page__accueil .section__stages .div__lien {
+  text-align: center;
+}
+.page__accueil .section__stages .div__lien a {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  color: #1E98D7;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.page__accueil .section__stages .div__lien a:hover {
+  text-decoration: underline;
+}
+.page__accueil .section__joindre {
+  text-align: center;
+  margin: 0 20px 0 20px;
+}
+@media (min-width: 600px) {
+  .page__accueil .section__joindre {
+    margin: 60px 20px 50px 20px;
+  }
+}
+.page__accueil .section__joindre h2 {
+  text-align: left;
+  position: relative;
+  z-index: 1;
+  padding-top: 30px;
+}
+@media (min-width: 600px) {
+  .page__accueil .section__joindre h2 {
+    font-size: 3em;
+  }
+}
+.page__accueil .section__joindre p {
+  font-weight: bolder;
+  font-size: 10em;
+  z-index: 0;
+  position: absolute;
+  margin: 0 0 0 20%;
+  color: #E4E4E4;
+}
+@media (min-width: 600px) {
+  .page__accueil .section__joindre p {
+    margin: 0 0 0 40%;
+  }
+}
+.page__accueil .section__joindre h2:last-of-type {
+  margin-top: 40px;
+  text-align: right;
+}
+.page__accueil .section__joindre a {
+  margin-bottom: 25px;
+  color: #1E98D7;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.page__accueil .section__joindre a:hover {
+  text-decoration: underline;
+}
+.page__accueil .nav--projet {
+  margin-top: 150px;
+}
+@media (min-width: 600px) {
+  .page__accueil .nav--projet {
+    margin-top: 0;
+    display: inline-block;
+    margin-left: 20%;
+  }
+}
+.page__accueil .lien--projet {
+  margin-bottom: 25px;
+  color: #1E98D7;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.page__accueil .lien--projet:hover {
+  text-decoration: underline;
+}
+@media (min-width: 600px) {
+  .page__accueil .lien--projet {
+    margin-top: 0;
+    display: block;
+    margin-left: 55%;
+  }
+}
+
+.entete .logo {
+  margin: 10px 0 10px 20px;
+}
+.entete .menu__hamburger {
+  float: right;
+  margin: 10px 20px 10px 0;
+}
+.entete div {
+  margin: 0 0 40px 0;
+}
+.entete div img {
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  filter: brightness(35%);
+}
+@media (min-width: 600px) {
+  .entete div img {
+    display: none;
+  }
+}
+.entete div h1, .entete div h2, .entete div .ligneRouge, .entete div .ligneViolet {
+  position: relative;
+  color: white;
+  padding-left: 20px;
+}
+.entete div h1 {
+  padding-top: 40px;
+}
+.entete div h2 {
+  text-transform: none;
+}
+.entete div .ligneRouge {
+  transform: translateY(600%) translateX(5%);
+  width: 90%;
+  height: 5px;
+  background-color: #BB3E3E;
+}
+.entete div .ligneViolet {
+  transform: translateX(10%);
+  height: 5px;
+  width: 50%;
+  background-color: #A388B8;
+}
+
+.page__joindre {
+  margin: 0 20px 0 20px;
+}
+.page__joindre .listeResponsables {
+  list-style: none;
+  padding-inline-start: 0;
+  width: 100%;
+}
+.page__joindre .listeResponsables .li__responsable {
+  margin: 20px 0 60px 0;
+}
+.page__joindre .listeResponsables .li__responsable img {
+  border: black 2px solid;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+.page__joindre .listeResponsables .li__responsable:nth-child(odd) img {
+  float: left;
+}
+.page__joindre .listeResponsables .li__responsable:nth-child(odd) li:first-child {
+  background-color: #2B5BA1;
+  border-radius: 25px 0 0 0;
+}
+.page__joindre .listeResponsables .li__responsable:nth-child(even) img {
+  float: right;
+}
+.page__joindre .listeResponsables .li__responsable:nth-child(even) li:first-child {
+  background-color: #BB3E3E;
+  border-radius: 0 25px 0 0;
+}
+.page__joindre .listeResponsables .li__responsable ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+.page__joindre .listeResponsables .li__responsable ul li {
+  font-size: 0.8em;
+  background-color: #D7D7D7;
+  text-align: center;
+  padding: 5px 0 5px 0;
+}
+.page__joindre .listeResponsables .li__responsable ul li:first-child {
+  font-weight: bold;
+  height: 2em;
+  line-height: 2em;
+  font-size: 1em;
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+  padding: 0;
+}
+.page__joindre .listeResponsables .li__responsable ul li:last-child {
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.page__joindre .listeResponsables .li__responsable:hover {
+  cursor: pointer;
+}
+.page__joindre .listeResponsables .li__responsable:hover img {
+  filter: brightness(120%);
+}
+.page__joindre .listeResponsables .li__responsable:hover li {
+  text-decoration: underline;
+}
+.page__joindre form {
+  background-color: #D7D7D7;
+  padding: 20px;
+}
+.page__joindre form fieldset {
+  border: none;
+  margin-bottom: 20px;
+}
+.page__joindre form legend {
+  font-weight: bold;
+}
+.page__joindre form input[type=text] {
+  width: 100%;
+}
+.page__joindre form select {
+  width: 100%;
+}
+.page__joindre form input[type=radio] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 45%;
+  height: 6.5em;
+  border-radius: 25%;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  transition: 0.3s;
+}
+.page__joindre form input[type=radio]:first-of-type {
+  background-image: url("../images/boutonEmployeur.png");
+}
+.page__joindre form input[type=radio]:nth-of-type(2) {
+  background-image: url("../images/boutonEtudiant.png");
+}
+.page__joindre form input[type=radio]:checked {
+  filter: invert(100%);
+}
+.page__joindre form label[for=employeur], .page__joindre form label[for=etudiant] {
+  display: none;
 }
 
 /** Typographie **/

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<id><![CDATA[4]]></id>
+		<titre><![CDATA[Étudiant d’un jour]]></titre>
+		<texte><![CDATA[<p>Tu veux en apprendre plus sur le programme ? Tu veux assister à un ou plusieurs cours ? Viens passer une journée avec nous, en Techniques d'intégration multimédia!</p>
+<p>Contacte <a href="#">Benoît Frigon</a> pour en savoir plus. </p> ]]></texte>
+		<clientele><![CDATA[1]]></clientele>
+	</node>
+	<node>
+		<id><![CDATA[5]]></id>
+		<titre><![CDATA[Stages]]></titre>
+		<texte><![CDATA[<p>Le programme TIM du Cégep de Sainte-Foy offre des stages en Alternance travail études (<abbr title="Alternance travail études">ATE</abbr>) pendant l’été et un stage crédité en session terminale qui peut être réalisé en France.</p> 
+
+<p>Contacte <a href="#">Pascal Larose</a> pour en savoir plus. </p> ]]></texte>
+		<clientele><![CDATA[1]]></clientele>
+	</node>
+	<node>
+		<id><![CDATA[6]]></id>
+		<titre><![CDATA[Des questions?]]></titre>
+		<texte><![CDATA[<p>Tu as des questions et aimerais en apprendre plus sur notre programme ? N’hésite pas à nous contacter pour obtenir des réponses.</p>
+
+<p>Contacte <a href="#">Sylvain Lamoureux</a> pour en savoir plus.</p>  ]]></texte>
+		<clientele><![CDATA[1]]></clientele>
+	</node>
+	<node>
+		<id><![CDATA[7]]></id>
+		<titre><![CDATA[S’inscrire au programme]]></titre>
+		<texte><![CDATA[<p>Les demandes d'admission au programme TIM sont reçues avant le 1er mars de chaque année (1er tour), le 1er mai (2e tour), le 1er juin (3e tour) et le 1er août (4e tour). </p>
+
+<p>Pour compléter ta demande d'admission à notre programme, tu dois t'adresser au Service régional d'admission au collégial de Québec (<abbr title="Service régional d'admission au collégial de Québec">SRACQ</abbr>), à l'adresse <a href="http://sracq.qc.ca">http://sracq.qc.ca</a></p>]]></texte>
+		<clientele><![CDATA[1]]></clientele>
+	</node>
+	<node>
+		<id><![CDATA[8]]></id>
+		<titre><![CDATA[Stages]]></titre>
+		<texte><![CDATA[<p>Stage des étudiant.e.s de 3e année (stage de fin d’études, crédité)
+Débute le 21 mars 2022 pour une durée de 8 semaines. 
+Les étudiant.e.s seront par la suite immédiatement disponibles à l'emploi. Les stages rémunérés sont admissibles à des crédits d'impôt avantageux.</p>
+
+<p>Stage des étudiant.e.s de 1re et 2e année (stage alternance travail-étude)
+Début à partir du 23 mai 2022 pour une durée minimum de 8 semaines
+Il s'agit d'un stage rémunéré. Les stages rémunérés sont admissibles à des crédits d'impôt avantageux.</p>
+
+<p>Consultez le profil des compétences de nos étudiant.e.s pour déterminer le stage à offrir. (<a href="#">mettre profilCompetences2022.pdf en lien)</a></p>
+
+<p>Contactez <a href="#">Pascal Larose</a> pour en savoir plus.  
+Téléphone : (418) 659-6600, poste 6663</p>]]></texte>
+		<clientele><![CDATA[2]]></clientele>
+	</node>
+	<node>
+		<id><![CDATA[9]]></id>
+		<titre><![CDATA[Des questions?]]></titre>
+		<texte><![CDATA[<p>Vous avez des questions et aimeriez en apprendre plus sur notre programme ? N’hésitez pas à nous contacter pour obtenir des réponses.</p>
+
+<p>Contacter <a href="#">Sylvain Lamoureux</a> pour en savoir plus.</p>]]></texte>
+		<clientele><![CDATA[2]]></clientele>
+	</node>
+	<node>
+		<id><![CDATA[11]]></id>
+		<titre><![CDATA[Site du cégep]]></titre>
+		<texte><![CDATA[<a href="http://www.cegep-ste-foy.qc.ca">http://www.cegep-ste-foy.qc.ca</a>]]></texte>
+		<clientele><![CDATA[0]]></clientele>
+	</node>
+	<node>
+		<id><![CDATA[12]]></id>
+		<titre><![CDATA[Page du programme TIM sur le site du cégep]]></titre>
+		<texte><![CDATA[<a href='https://www.csfoy.ca/programmes/tous-les-programmes/programmes-techniques/techniques-dintegration-multimedia-web-et-apps/'>https://www.csfoy.ca/programmes/tous-les-programmes/programmes-techniques/techniques-dintegration-multimedia-web-et-apps/</a>
+
+]]></texte>
+		<clientele><![CDATA[0]]></clientele>
+	</node>
+	<node>
+		<id><![CDATA[13]]></id>
+		<titre><![CDATA[Facebook]]></titre>
+		<texte><![CDATA[<a href='https://www.facebook.com/timcsf'>https://www.facebook.com/timcsf</a>]]></texte>
+		<clientele><![CDATA[0]]></clientele>
+	</node>
+	<node>
+		<id><![CDATA[14]]></id>
+		<titre><![CDATA[Twitter]]></titre>
+		<texte><![CDATA[<a href="https://twitter.com/timcsf">https://twitter.com/timcsf</a>]]></texte>
+		<clientele><![CDATA[0]]></clientele>
+	</node>
+	<node>
+		<id><![CDATA[15]]></id>
+		<titre><![CDATA[Linkedin]]></titre>
+		<texte><![CDATA[<a href='https://www.linkedin.com/groups/2211970'>https://www.linkedin.com/groups/2211970</a>]]></texte>
+		<clientele><![CDATA[0]]></clientele>
+	</node>
+	<node>
+		<id><![CDATA[17]]></id>
+		<titre><![CDATA[Titres d'emplois accessibles avec la formation]]></titre>
+		<texte><![CDATA[<ul> 
+<li>Concepteur/conceptrice Web</li>
+<li>Développeur/développeuse Web</li>
+<li>Intégrateur/intégratrice multimédia</li>
+<li>Développeur/développeuse d’applications mobile Programmeur/programmeuse de médias interactifs</li>
+<li>Webmestre</li>
+<li>Chargé.e de projet Web</li>
+</ul>]]></texte>
+		<clientele><![CDATA[1]]></clientele>
+	</node>
+	<node>
+		<id><![CDATA[19]]></id>
+		<titre><![CDATA[Formation - Introduction]]></titre>
+		<texte><![CDATA[Trois piliers du programme TIM — Web et apps : utilisabilité, accessibilité et portabilité. Deux axes de formation : Conception + traitement des médias - Intégration + programmation. Un seul but, former des technicien.ne.s polyvalent.e.s, aptes à réaliser des sites et des applications Web de A à Z.
+
+
+]]></texte>
+		<clientele><![CDATA[1]]></clientele>
+	</node>
+	<node>
+		<id><![CDATA[21]]></id>
+		<titre><![CDATA[Formation - Conception 25%]]></titre>
+		<texte><![CDATA[Analyser les besoins du ou de la client.e et concevoir des interfaces efficientes et attrayantes. Tester les fonctionnalités conçues. Design inclusif (accessibilité).
+<ul>
+<li>Design d’interfaces Web </li>
+<li>Expérience utilisateur</li>
+<li>Utilisabilité</li>
+<li>Ergonomie</li> 
+<li>Accessibilité</li>
+<li>Axure</li>
+<li>Figma</li>
+</ul>]]></texte>
+		<clientele><![CDATA[1]]></clientele>
+	</node>
+	<node>
+		<id><![CDATA[22]]></id>
+		<titre><![CDATA[Formation - Traitement des médias 15%]]></titre>
+		<texte><![CDATA[Traitement et création de médias tels que textes, images matricielles et vectorielles, photos, animations, vidéos, sons.
+<ul>
+<li>Suite Adobe CC</li>
+<li>Photomontages </li> 
+<li>Tournage et montage vidéo</li>
+<li>Effets spéciaux</li>
+<li>Son</li> 
+<li>Design cinétique</li>
+</ul>]]></texte>
+		<clientele><![CDATA[1]]></clientele>
+	</node>
+	<node>
+		<id><![CDATA[23]]></id>
+		<titre><![CDATA[Formation - Intégration 25%]]></titre>
+		<texte><![CDATA[Transposer les médias et le design en code sémantique et programmer l’interactivité du côté client (front-end). S’assurer de l’accessibilité de l’interface.
+<ul>
+<li>HTML 5</li>
+<li>SASS</li>
+<li>CSS</li> 
+<li>Flex et Grid</li> 
+<li>JSON</li>
+<li>JavaScript</li>
+<li>Ajax</li> 
+<li>TypeScript</li>
+<li>Mobile first</li>
+<li>Responsive Web</li>
+</ul>]]></texte>
+		<clientele><![CDATA[1]]></clientele>
+	</node>
+	<node>
+		<id><![CDATA[24]]></id>
+		<titre><![CDATA[Formation - Programmation 25%]]></titre>
+		<texte><![CDATA[Rendre fonctionnel un produit numérique interactif du côté serveur (back-end). Manipulation de bases de données pour l’affichage dynamique, le tout de façon sémantique dans un code documenté, portable et robuste.
+<ul>
+<li>PHP</li> 
+<li>SQL / MySQL</li>
+<li>Orienté objet</li>
+<li>MVC</li>
+<li>PhpStorm</li> 
+</ul>]]></texte>
+		<clientele><![CDATA[1]]></clientele>
+	</node>
+	<node>
+		<id><![CDATA[25]]></id>
+		<titre><![CDATA[Formation - Autres 10%]]></titre>
+		<texte><![CDATA[Gérer des projets, réaliser des stages en milieu professionnel. Gestion Agile, outils de gestion de projet, réalisation de projets d’envergure.
+<ul>
+<li>Gestion Agile/Scrum</li>
+<li>Travail collaboratif: Git, Planner</li>
+<li>Autonomie</li> 
+<li>Veille technologique</li>
+<li>Stages</li>
+</ul>]]></texte>
+		<clientele><![CDATA[1]]></clientele>
+	</node>
+	<node>
+		<id><![CDATA[26]]></id>
+		<titre><![CDATA[Grille de cours]]></titre>
+		<texte><![CDATA[<p>Pour avoir de l’information plus spécifique sur les cours, visite le site du Cégep de Sainte-Foy.<a href='https://www.csfoy.ca/programmes/tous-les-programmes/programmes-techniques/techniques-dintegration-multimedia-web-et-apps/'>https://www.csfoy.ca/programmes/tous-les-programmes/programmes-techniques/techniques-dintegration-multimedia-web-et-apps/</a></p>
+<p>Pour télécharger la grille de cours du programme TIM (<a href="#">mettre grille_cours_TIM.pdf en lien)</a></p>
+]]></texte>
+		<clientele><![CDATA[1]]></clientele>
+	</node>
+	<node>
+		<id><![CDATA[27]]></id>
+		<titre><![CDATA[Profession - Intégrateur ou intégratrice]]></titre>
+		<texte><![CDATA[L’intégrateur ou intégratrice Web est la personne en charge de traduire et de transposer les maquettes fournies par l’équipe graphique dans un langage informatique, ce qui permet d’avoir un rendu réel et manipulable du site dans un navigateur. Il ou elle s’occupe donc de la partie visible du site en créant une interface ergonomique et accessible.
+
+Postes en lien
+Intégrateur multimédia, développeur web, développeur front-end, webmestre, …
+Salaire à l'entrée sur le marché du travail en 2021: 32 000 $ à 36 999 $]]></texte>
+		<clientele><![CDATA[1]]></clientele>
+	</node>
+	<node>
+		<id><![CDATA[28]]></id>
+		<titre><![CDATA[Profession - Programmeur ou programmeuse]]></titre>
+		<texte><![CDATA[Le programmeur ou la programmeuse Web se charge de la mise en place, de la configuration, du développement et de la maintenance du serveur, de la base de données et de l’application Web en général. En bref, il ou elle participe au développement de tous les éléments d’un projet web qui sont ”invisibles” lorsque l’on navigue sur un site Internet.
+
+Postes en lien
+Développeur ou développeuse Web, développeur ou développeuse back-end (côté serveur), …
+Salaire à l'entrée sur le marché du travail en 2021: 37 000 $ à 41 999 $]]></texte>
+		<clientele><![CDATA[1]]></clientele>
+	</node>
+	<node>
+		<id><![CDATA[29]]></id>
+		<titre><![CDATA[Profession - Concepteur ou conceptrice]]></titre>
+		<texte><![CDATA[Le concepteur ou la conceptrice Web conçoit et réalise l’interface visuelle d’un site internet pour lequel il ou elle crée tous les éléments graphiques (illustrations, bannières, images, animations…) selon les objectifs du client, en fonction des besoins du public visé et des contraintes techniques. Il ou elle analyse et imagine des solutions et des interfaces adaptées.
+
+Postes en lien
+Designer Web, graphiste, designer UI, designer UX, …
+Salaire à l'entrée sur le marché du travail en 2021: 32 000 $ à 36 999 $]]></texte>
+		<clientele><![CDATA[1]]></clientele>
+	</node>
+	<node>
+		<id><![CDATA[30]]></id>
+		<titre><![CDATA[Profession - Webmestre]]></titre>
+		<texte><![CDATA[Emploi très versatile, le ou la webmestre est principalement responsable de la mise à jour d’un site Web. Il ou elle joue à la fois un rôle de technicien.ne, de graphiste et de rédacteur.trice.
+Il ou elle assure la veille technologique, coordonne la collecte et l’organisation de l’information à inclure dans un site.
+
+Salaire à l'entrée sur le marché du travail en 2021: 32 000 $ à 36 999 $]]></texte>
+		<clientele><![CDATA[1]]></clientele>
+	</node>
+	<node>
+		<id><![CDATA[31]]></id>
+		<titre><![CDATA[Programmes d'étude - Université du Québec en Abitibi-Témiscamingue]]></titre>
+		<texte><![CDATA[Baccalauréat en création numérique concentration cinéma, création 3 D et technologie Web — <a href='https://www.uqat.ca/etudes/creation-et-nouveaux-medias/baccalaureat-en-creation-numerique-profils-informatique-cinema-creation-3d-technologie-web/'>https://www.uqat.ca/etudes/creation-et-nouveaux-medias/baccalaureat-en-creation-numerique-profils-informatique-cinema-creation-3d-technologie-web/</a>]]></texte>
+		<clientele><![CDATA[1]]></clientele>
+	</node>
+	<node>
+		<id><![CDATA[32]]></id>
+		<titre><![CDATA[Programmes d'étude - École de design — Université Laval]]></titre>
+		<texte><![CDATA[<ul>
+<li>Baccalauréat en art et science de l’animation <a href='https://www.design.ulaval.ca/programmes/baccalaureat-art-science-animation'>https://www.design.ulaval.ca/programmes/baccalaureat-art-science-animation</a></li>
+
+<li>Baccalauréat en design graphique <a href='https://www.design.ulaval.ca/programmes/baccalaureat-design-graphique'>https://www.design.ulaval.ca/programmes/baccalaureat-design-graphique</a></li>
+
+<li>Certificat en art et science de l’animation  <a href='https://www.design.ulaval.ca/programmes/certificat-art-science-animation'>https://www.design.ulaval.ca/programmes/certificat-art-science-animation</a></li>
+</u>
+
+
+]]></texte>
+		<clientele><![CDATA[1]]></clientele>
+	</node>
+	<node>
+		<id><![CDATA[33]]></id>
+		<titre><![CDATA[Programmes d'étude - Technologies de l’information — Université Laval ]]></titre>
+		<texte><![CDATA[Baccalauréat en informatique (B. Sc. A.)
+Université Laval, Québec Concentration Internet et applications Web ou Concentration multimédia et développement de jeux vidéo<a href='https://www.fsg.ulaval.ca/etudes/technologies-de-linformation/'> https://www.fsg.ulaval.ca/etudes/technologies-de-linformation/</a>]]></texte>
+		<clientele><![CDATA[1]]></clientele>
+	</node>
+	<node>
+		<id><![CDATA[34]]></id>
+		<titre><![CDATA[Programmes d'étude - Faculté de communication — UQAM]]></titre>
+		<texte><![CDATA[Baccalauréat en communication (création médias – médias interactifs) <a href='https://etudier.uqam.ca/programme?code=6504'>https://etudier.uqam.ca/programme?code=6504</a>]]></texte>
+		<clientele><![CDATA[1]]></clientele>
+	</node>
+	<node>
+		<id><![CDATA[35]]></id>
+		<titre><![CDATA[Programmes d'étude - École de technologie supérieure (ÉTS)]]></titre>
+		<texte><![CDATA[Baccalauréat en génie des technologies de l’information <a href='https://www.etsmtl.ca/etudes/premier-cycle/Baccalaureat-genie-des-TI'>https://www.etsmtl.ca/etudes/premier-cycle/Baccalaureat-genie-des-TI</a>]]></texte>
+		<clientele><![CDATA[1]]></clientele>
+	</node>
+	<node>
+		<id><![CDATA[36]]></id>
+		<titre><![CDATA[Programmes d'étude - Université du Québec à Chicoutimi ]]></titre>
+		<texte><![CDATA[Baccalauréat (Majeure en conception de jeux vidéo)<a href='https://www.uqac.ca/programme/6908-baccalaureat-avec-majeure-en-conception-de-jeux-video/'> https://www.uqac.ca/programme/6908-baccalaureat-avec-majeure-en-conception-de-jeux-video/</a>
+]]></texte>
+		<clientele><![CDATA[1]]></clientele>
+	</node>
+	<node>
+		<id><![CDATA[37]]></id>
+		<titre><![CDATA[Programmes d'étude - Université Concordia, Montréal ]]></titre>
+		<texte><![CDATA[BFA —Design and Computation Arts <a href='https://www.concordia.ca/finearts/design.html'>https://www.concordia.ca/finearts/design.html</a>]]></texte>
+		<clientele><![CDATA[1]]></clientele>
+	</node>
+	<node>
+		<id><![CDATA[38]]></id>
+		<titre><![CDATA[Instagram]]></titre>
+		<texte><![CDATA[Lien vers le compte Instagram  timcsf]]></texte>
+		<clientele><![CDATA[0]]></clientele>
+	</node>
+	<node>
+		<id><![CDATA[39]]></id>
+		<titre><![CDATA[Type d'employeur ]]></titre>
+		<texte><![CDATA[<ul>
+<li>Agences Web et numériques</li>
+<li>Entreprises en multimédia</li>
+<li>Entreprises privées</li>
+<li>Secteurs public et parapublic</li>
+</ul>
+
+
+]]></texte>
+		<clientele><![CDATA[0]]></clientele>
+	</node>
+</data>
