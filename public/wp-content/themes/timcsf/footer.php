@@ -6,14 +6,17 @@
 </nav>
     <?php } ?>
     <h3>Trouvez les TIM sur:</h3>
-    <ul>
-        <li><a href="www.facebook.com"><img src="" alt="logoFacebook"></a></li>
-        <li><a href="www.twitter.com"><img src="" alt="logoTwitter"></a></li>
-        <li><a href="www.linkedin.com"><img src="" alt="logoLinkedIn"></a></li>
+    <ul class="liensReseauxSociaux">
+        <li><a href="https://www.facebook.com/timcsf"><img src="../public/wp-content/uploads/2022/02/facebook-1.png" alt="logoFacebook"></a></li>
+        <li><a href="https://twitter.com/timcsf"><img src="../public/wp-content/uploads/2022/02/twitter-1.png" alt="logoTwitter"></a></li>
+        <li><a href="https://www.linkedin.com/groups/2211970"><img src="../public/wp-content/uploads/2022/02/linkedin-1.png" alt="logoLinkedIn"></a></li>
     </ul>
-    <small>Conception et développement par David Gilbert</small>
+    <div class="petitTexte">
+    <small>Conception et développement par David Gilbert</small></br>
     <small>Tous droits réservés 2022 © Techniques d'intégration multimédia - Web et Apps, Cégep de Sainte-Foy</small>
-    <img src="" alt="logoCegep">
+    </br>
+    <img src="../public/wp-content/uploads/2022/02/logo_cegep.png" alt="logoCegep">
+    </div>
 </footer>
 <?php wp_footer(); ?>
 </body>

@@ -6,8 +6,11 @@
     width: 100%;
     .li__responsable{
       margin: 20px 0 60px 0;
-
-
+      @media(min-width: 600px){
+        display: inline-block;
+        width: 49%;
+        margin: 20px 0 20px 0;
+      }
       img{
         border: black 2px solid;
         border-radius: 25px;
@@ -23,14 +26,23 @@
         }
       }
       &:nth-child(even){
+
         img{
           float:right;
         }
         li{
+          @media(min-width: 600px){
+            margin-left: 20%;
+          }
 
           &:first-child{
             background-color: #BB3E3E;
             border-radius: 0 25px 0 0 ;
+            @media(min-width: 600px){
+              margin-left: 0;
+
+            }
+
           }
         }
       }
@@ -41,6 +53,9 @@
         font-size: 0.8em;
           background-color: #D7D7D7;
         text-align: center;
+          @media(min-width: 600px){
+            width: 80%;
+          }
 
         &:first-child{
           font-weight: bold;
@@ -51,6 +66,9 @@
           color: white;
           margin-bottom: 10px;
           padding: 0;
+          @media(min-width: 600px){
+            width: 100%;
+          }
         }
           padding: 5px 0 5px 0;
           &:last-child{
@@ -72,16 +90,34 @@
   }
   form{
     background-color: #D7D7D7;
-    padding: 20px;
+    padding: 20px 20px 70px 20px;
+    @media (min-width: 600px){
+      width: 70%;
+      margin: 50px auto 50px auto;
+      border-radius: 30px;
+      padding: 40px 15% 70px 15%;
+      label{
+        width: 100%;
+        display: inherit;
+      }
+    }
     fieldset{
       border: none;
       margin-bottom: 20px;
     }
     legend{
       font-weight: bold;
+      margin-bottom: 20px;
     }
     input[type="text"]{
       width: 100%;
+      margin-bottom: 20px;
+      @media(min-width: 600px){
+        width: 50%;
+        &:nth-of-type(5), &:nth-of-type(6){
+          width: 70%;
+        }
+      }
     }
     select{
       width: 100%;
@@ -94,24 +130,60 @@
       width:45%;
       height: 6.5em;
       border-radius: 25%;
-      margin-right: 10px;
+      margin: 0 10px 20px 0;
+      @media(min-width: 600px){
+        width: 30%;
+        height: 9em;
+      }
       &:first-of-type{
         background-image:url("../images/boutonEmployeur.png");
       }
       &:nth-of-type(2){
         background-image:url("../images/boutonEtudiant.png");
+
       }
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
       transition: 0.3s;
+      &:hover{
+        box-shadow: inset black 2px 2px 5px;
+      }
       &:checked{
         filter: invert(100%);
+        &:hover{
+          box-shadow: none;
+        }
       }
 
     }
     label[for="employeur"], label[for="etudiant"]{
       display: none;
+    }
+    textarea{
+      width: 100%;
+      height: 10em;
+    }
+  }
+  button{
+    float: right;
+    margin: 0 15px 0 0;
+    background-color: #2B5BA1;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 130px;
+    border-radius: 10px;
+    box-shadow: dimgrey 0 2px 5px;
+    &:hover{
+      text-decoration: underline;
+      border: 2px white solid;
+
+    }
+    &:active{
+      background-color: white;
+      border: 2px #2B5BA1 solid;
+      color: #2B5BA1;
     }
   }
 }

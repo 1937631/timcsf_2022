@@ -527,16 +527,49 @@ body {
 .piedPage .navigation__secondaire ul li a {
   text-decoration: none;
   color: white;
-  font-weight: bold;
+  font-weight: 500;
 }
 .piedPage .navigation__secondaire ul li a:hover {
   text-decoration: underline;
+}
+.piedPage h3 {
+  margin-left: 20px;
+  color: white;
+  font-weight: lighter;
+}
+.piedPage .liensReseauxSociaux {
+  list-style: none;
+  padding: 0 0 0 20px;
+}
+.piedPage .liensReseauxSociaux li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.piedPage .liensReseauxSociaux li img {
+  transition: 0.2s;
+}
+.piedPage .liensReseauxSociaux li:hover img {
+  filter: brightness(75%);
+}
+.piedPage .petitTexte {
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  margin: 0 20px 0 20px;
+}
+.piedPage .petitTexte small {
+  margin-top: 20px;
+}
+.piedPage .petitTexte img {
+  margin: 20px 0 40px 0;
+  width: 50%;
 }
 
 .page__accueil h2 {
   text-transform: none;
   font-size: 24px;
   font-weight: bold;
+  margin-left: 20px;
 }
 .page__accueil .section__formation {
   text-align: center;
@@ -693,6 +726,9 @@ body {
 .page__accueil .section__stages {
   margin: 0 20px 0 20px;
 }
+.page__accueil .section__stages h2 {
+  margin: 0 20px 0 0;
+}
 .page__accueil .section__stages div {
   height: 30px;
   margin-bottom: 20px;
@@ -751,7 +787,7 @@ body {
 }
 .page__accueil .section__joindre {
   text-align: center;
-  margin: 0 20px 0 20px;
+  margin: 0 20px 0 0;
 }
 @media (min-width: 600px) {
   .page__accueil .section__joindre {
@@ -880,6 +916,13 @@ body {
 .page__joindre .listeResponsables .li__responsable {
   margin: 20px 0 60px 0;
 }
+@media (min-width: 600px) {
+  .page__joindre .listeResponsables .li__responsable {
+    display: inline-block;
+    width: 49%;
+    margin: 20px 0 20px 0;
+  }
+}
 .page__joindre .listeResponsables .li__responsable img {
   border: black 2px solid;
   border-radius: 25px;
@@ -895,9 +938,19 @@ body {
 .page__joindre .listeResponsables .li__responsable:nth-child(even) img {
   float: right;
 }
+@media (min-width: 600px) {
+  .page__joindre .listeResponsables .li__responsable:nth-child(even) li {
+    margin-left: 20%;
+  }
+}
 .page__joindre .listeResponsables .li__responsable:nth-child(even) li:first-child {
   background-color: #BB3E3E;
   border-radius: 0 25px 0 0;
+}
+@media (min-width: 600px) {
+  .page__joindre .listeResponsables .li__responsable:nth-child(even) li:first-child {
+    margin-left: 0;
+  }
 }
 .page__joindre .listeResponsables .li__responsable ul {
   list-style: none;
@@ -909,6 +962,11 @@ body {
   text-align: center;
   padding: 5px 0 5px 0;
 }
+@media (min-width: 600px) {
+  .page__joindre .listeResponsables .li__responsable ul li {
+    width: 80%;
+  }
+}
 .page__joindre .listeResponsables .li__responsable ul li:first-child {
   font-weight: bold;
   height: 2em;
@@ -918,6 +976,11 @@ body {
   color: white;
   margin-bottom: 10px;
   padding: 0;
+}
+@media (min-width: 600px) {
+  .page__joindre .listeResponsables .li__responsable ul li:first-child {
+    width: 100%;
+  }
 }
 .page__joindre .listeResponsables .li__responsable ul li:last-child {
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
@@ -933,7 +996,19 @@ body {
 }
 .page__joindre form {
   background-color: #D7D7D7;
-  padding: 20px;
+  padding: 20px 20px 70px 20px;
+}
+@media (min-width: 600px) {
+  .page__joindre form {
+    width: 70%;
+    margin: 50px auto 50px auto;
+    border-radius: 30px;
+    padding: 40px 15% 70px 15%;
+  }
+  .page__joindre form label {
+    width: 100%;
+    display: inherit;
+  }
 }
 .page__joindre form fieldset {
   border: none;
@@ -941,9 +1016,19 @@ body {
 }
 .page__joindre form legend {
   font-weight: bold;
+  margin-bottom: 20px;
 }
 .page__joindre form input[type=text] {
   width: 100%;
+  margin-bottom: 20px;
+}
+@media (min-width: 600px) {
+  .page__joindre form input[type=text] {
+    width: 50%;
+  }
+  .page__joindre form input[type=text]:nth-of-type(5), .page__joindre form input[type=text]:nth-of-type(6) {
+    width: 70%;
+  }
 }
 .page__joindre form select {
   width: 100%;
@@ -954,11 +1039,17 @@ body {
   width: 45%;
   height: 6.5em;
   border-radius: 25%;
-  margin-right: 10px;
+  margin: 0 10px 20px 0;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   transition: 0.3s;
+}
+@media (min-width: 600px) {
+  .page__joindre form input[type=radio] {
+    width: 30%;
+    height: 9em;
+  }
 }
 .page__joindre form input[type=radio]:first-of-type {
   background-image: url("../images/boutonEmployeur.png");
@@ -966,11 +1057,41 @@ body {
 .page__joindre form input[type=radio]:nth-of-type(2) {
   background-image: url("../images/boutonEtudiant.png");
 }
+.page__joindre form input[type=radio]:hover {
+  box-shadow: inset black 2px 2px 5px;
+}
 .page__joindre form input[type=radio]:checked {
   filter: invert(100%);
 }
+.page__joindre form input[type=radio]:checked:hover {
+  box-shadow: none;
+}
 .page__joindre form label[for=employeur], .page__joindre form label[for=etudiant] {
   display: none;
+}
+.page__joindre form textarea {
+  width: 100%;
+  height: 10em;
+}
+.page__joindre button {
+  float: right;
+  margin: 0 15px 0 0;
+  background-color: #2B5BA1;
+  color: white;
+  border: none;
+  height: 50px;
+  width: 130px;
+  border-radius: 10px;
+  box-shadow: dimgrey 0 2px 5px;
+}
+.page__joindre button:hover {
+  text-decoration: underline;
+  border: 2px white solid;
+}
+.page__joindre button:active {
+  background-color: white;
+  border: 2px #2B5BA1 solid;
+  color: #2B5BA1;
 }
 
 /** Typographie **/

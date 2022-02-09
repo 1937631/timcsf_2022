@@ -3,6 +3,8 @@
     text-transform: none;
     font-size: 24px;
     font-weight: bold;
+    margin-left: 20px;
+
   }
 
 .section{
@@ -149,6 +151,9 @@
     }
 }
   &__stages{
+    h2{
+      margin: 0 20px 0 0;
+    }
     margin: 0 20px 0 20px;
 
     div{
@@ -228,7 +233,7 @@
   }
   &__joindre{
     text-align: center;
-    margin: 0 20px 0 20px;
+    margin: 0 20px 0 0;
     @media (min-width: 600px){
       margin: 60px 20px 50px 20px;
     }
