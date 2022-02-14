@@ -9,6 +9,7 @@
   "author": "David Gilbert",
   "license": "ISC",
   "dependencies": {
+    "animate.css": "^4.1.1",
     "normalize.scss": "^0.1.0"
   }
 }

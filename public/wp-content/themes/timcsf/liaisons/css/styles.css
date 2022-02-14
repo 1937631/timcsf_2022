@@ -867,6 +867,11 @@ body {
   float: right;
   margin: 10px 20px 10px 0;
 }
+@media (min-width: 600px) {
+  .entete .menu__hamburger {
+    display: none;
+  }
+}
 .entete div {
   margin: 0 0 40px 0;
 }
@@ -903,6 +908,75 @@ body {
   height: 5px;
   width: 50%;
   background-color: #A388B8;
+}
+
+.ouvert, .ferme {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 115px;
+}
+@media (min-width: 600px) {
+  .ouvert, .ferme {
+    top: 20px;
+  }
+}
+.ouvert ul, .ferme ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+.ouvert ul li, .ferme ul li {
+  height: 70px;
+  line-height: 70px;
+  border-radius: 9px;
+  border: 1px solid black;
+  background-color: white;
+}
+@media (min-width: 600px) {
+  .ouvert ul li, .ferme ul li {
+    width: 15%;
+    display: inline-block;
+    border: none;
+  }
+}
+.ouvert ul li:hover, .ferme ul li:hover {
+  background-color: #2B5BA1;
+  cursor: pointer;
+}
+@media (min-width: 600px) {
+  .ouvert ul li:hover, .ferme ul li:hover {
+    background-color: white;
+  }
+}
+.ouvert ul li:hover a, .ferme ul li:hover a {
+  color: white;
+  text-decoration: underline;
+}
+@media (min-width: 600px) {
+  .ouvert ul li:hover a, .ferme ul li:hover a {
+    color: #2B5BA1;
+  }
+}
+.ouvert ul li a, .ferme ul li a {
+  text-decoration: none;
+  color: #2B5BA1;
+  font-size: 22px;
+}
+
+.ouvert {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.ferme {
+  opacity: 1;
+}
+@media (max-width: 600px) {
+  .ferme {
+    opacity: 0;
+    transition: 0.3s;
+  }
 }
 
 .page__joindre {
