@@ -100,7 +100,7 @@
   }
   &__projets{
     background-color: #D7D7D7;
-    margin-right: 20px;
+    margin: 0 20px 150px 0;
     position: relative;
     height: 180px;
     @media(min-width: 600px){
@@ -125,10 +125,27 @@
       @media (min-width: 600px) {
         height: 21em;
       }
+      .mySlides{
+        display: none;
+      }
+      img{
+
+        width: 75%;
+        height: 150px;
+        margin:40px 0 0 40px;
+        position: absolute;
+        object-fit: cover;
+        @media (min-width: 600px){
+          width: 80%;
+          margin: 40px 0 0 60px;
+          height: 250px;
+        }
+      }
       p{
         background-color: rgba(0, 0, 0, 75%);
         color: white;
         text-align: center;
+
       }
       .fleche--droite{
         width: 0;
@@ -139,6 +156,8 @@
         border-radius: 10px;
         margin-left: 85%;
         transition: 0.3s;
+        position: relative;
+        top: 15%;
         &:hover{
          border-left: 35px solid #D7D7D7;
           cursor: pointer;
@@ -146,6 +165,7 @@
         }
         @media (min-width: 600px){
           margin-top: 12%;
+          margin-left: 90%;
         }
       }
     }
@@ -275,16 +295,36 @@
   }
 }
 
-.nav--projet{
-  margin-top: 150px;
-  @media(min-width: 600px){
-    margin-top: 0;
-    display: inline-block;
-    margin-left: 20%;
-  }
+.dot{
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #717171;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+
 }
+  .active, .dot:hover{
+    background-color: #2B5BA1;
+  }
+  .fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
   .lien--projet{
-    margin-bottom: 25px;
+    margin: 0 0 25px 20px;
     color: #1E98D7;
     font-size: 18px;
     font-weight: bold;
@@ -295,7 +335,14 @@
     @media(min-width: 600px){
       margin-top: 0;
       display: block;
-      margin-left: 55%;
+      margin-left: 57%;
     }
+  }
+}
+.points{
+  margin: 0 0 25px 0;
+  @media(min-width: 600px){
+  width: 50%;
+    display: inline-block;
   }
 }

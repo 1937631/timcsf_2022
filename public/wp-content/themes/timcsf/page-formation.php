@@ -29,6 +29,8 @@ $traitementmedias = get_post(73);
 $autres = get_post(77);
 
 $grillecours = get_post(78);
+
+$etudiantJour = get_post(60);
 ?>
 <main class="page">
     <?php the_post(); ?>
@@ -100,9 +102,17 @@ $grillecours = get_post(78);
     <p>Pour télécharger la grille de cours du programme</p>
     <a href="#">Grille de cours</a>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/qfcalITCASk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <h3>Étudiant d'un jour</h3>
-    <p>Tu veux en apprendre plus sur le programme ? Tu veux assister à un ou plusieurs cours ? Viens passer une journée avec nous, en Techniques d’intégration multimédia!</p>
-    <a href="<?php echo get_page_link( get_page_by_title( "Nous joindre" )->ID ); ?>?responsable=benoit">Contacte Benoît Frigon pour en savoir plus</a>
+    <h3><?php echo $etudiantJour->post_title; ?></h3>
+    <p>
+        <?php echo $etudiantJour->post_content; ?>
+    </p>
+    <?php
+    $lienBen = get_field_object("lien_responsable", $etudiantJour);
+    $post_object=$lienBen["value"];
+    ?>
+    <a href="<?php echo get_page_link( get_page_by_title( "Nous joindre" )->ID); ?>?ID=<?php echo $post_object->ID; ?>">
+        <?php echo $post_object->post_title;?>
+    </a>
 
     <h3>Convaicu.e? Inscris-toi!</h3>
     <p>Les demandes d’admission au programme TIM sont reçues avant le 1er mars de chaque année (1er tour), le 1er mai (2e tour), le 1er juin (3e tour) et le 1er août (4e tour). Pour compléter ta demande d’admission à notre programme, tu dois t’adresser au Service régional d’admission au collégial de Québec (SRACQ)</p>

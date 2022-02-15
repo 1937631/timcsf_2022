@@ -185,5 +185,19 @@
       border: 2px #2B5BA1 solid;
       color: #2B5BA1;
     }
+    &:disabled{
+      background-color: grey;
+      &:hover{
+        border: none;
+        text-decoration: none;
+      }
+    }
   }
+}
+.messageErreur{
+  color: #BB3E3E;
+  margin-top: 0;
+}
+.formulaire__inputErreur{
+  border: 2px solid #BB3E3E;
 }

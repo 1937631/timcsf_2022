@@ -18,6 +18,7 @@
     <img src="../public/wp-content/uploads/2022/02/logo_cegep.png" alt="logoCegep">
     </div>
 </footer>
+<script src="<?php echo get_template_directory_uri();?>/liaisons/javascript/script.js"></script>
 <?php wp_footer(); ?>
 </body>
 </html>

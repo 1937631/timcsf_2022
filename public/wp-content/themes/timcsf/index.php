@@ -15,16 +15,42 @@ echo "index.php";
         <div><h3>apprises</h3></div>
         <a href="<?php echo get_page_link( get_page_by_title( "Les TIM, qu'est-ce que c'est?" )->ID ); ?>">Voir les détails de la formation ></a>
     </div>
+    <?php
+    $arrProjets = array();
+    for($cptRand = 0; $cptRand < 4; $cptRand++){
+        $random = rand(1, 83);
+        array_push($arrProjets, $random);
+    }
+    ?>
     <div class="section__projets">
+        <p style="display: none" id="hiddenInfo"></p>
         <h2>Des projets éducatifs</h2>
         <div class="carre">
-            <img alt="image_pasteque">
-            <p>La pastèque - David Gilbert</p>
-            <div class="fleche--droite"></div>
+            <?php
+            for($cptVisionneuse = 0; $cptVisionneuse < 4; $cptVisionneuse++){ ?>
+                    <div class="mySlides fade" >
+                        <img src="<?php echo get_template_directory_uri();?>../../../uploads/2022/02/prj<?php echo $arrProjets[$cptVisionneuse]; ?>_01.jpg" alt="">
+                        <p>
+                            <?php
+                            $post = get_post($arrProjets[$cptVisionneuse] + 131);
+                            echo $post->post_title;
+                            ?>
+                        </p>
+                    </div>
+
+
+            <?php }
+            ?>
+            <div class="fleche--droite" onclick="plusSlides(1)"></div>
         </div>
     </div>
-    <img class="nav--projet" alt="3points">
-    <a class="lien--projet" href="<?php echo get_page_link( get_page_by_title( "Projets" )->ID ); ?>">Voir l'ensemble des projets des TIM ></a>
+    <div class="points" style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+    <a class="lien--projet" href="<?php echo get_page_link( get_page_by_title( "Les projets" )->ID ); ?>">Voir l'ensemble des projets des TIM ></a>
     <div class="section__stages">
         <h2>Des stages pour tout les goûts</h2>
         <p>Possibilité d'alternance travail étude</p>

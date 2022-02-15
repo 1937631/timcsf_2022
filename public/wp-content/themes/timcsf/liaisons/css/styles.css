@@ -666,7 +666,7 @@ body {
 }
 .page__accueil .section__projets {
   background-color: #D7D7D7;
-  margin-right: 20px;
+  margin: 0 20px 150px 0;
   position: relative;
   height: 180px;
 }
@@ -699,6 +699,23 @@ body {
     height: 21em;
   }
 }
+.page__accueil .section__projets .carre .mySlides {
+  display: none;
+}
+.page__accueil .section__projets .carre img {
+  width: 75%;
+  height: 150px;
+  margin: 40px 0 0 40px;
+  position: absolute;
+  object-fit: cover;
+}
+@media (min-width: 600px) {
+  .page__accueil .section__projets .carre img {
+    width: 80%;
+    margin: 40px 0 0 60px;
+    height: 250px;
+  }
+}
 .page__accueil .section__projets .carre p {
   background-color: rgba(0, 0, 0, 0.75);
   color: white;
@@ -713,6 +730,8 @@ body {
   border-radius: 10px;
   margin-left: 85%;
   transition: 0.3s;
+  position: relative;
+  top: 15%;
 }
 .page__accueil .section__projets .carre .fleche--droite:hover {
   border-left: 35px solid #D7D7D7;
@@ -721,6 +740,7 @@ body {
 @media (min-width: 600px) {
   .page__accueil .section__projets .carre .fleche--droite {
     margin-top: 12%;
+    margin-left: 90%;
   }
 }
 .page__accueil .section__stages {
@@ -832,18 +852,43 @@ body {
 .page__accueil .section__joindre a:hover {
   text-decoration: underline;
 }
-.page__accueil .nav--projet {
-  margin-top: 150px;
+.page__accueil .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #717171;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
-@media (min-width: 600px) {
-  .page__accueil .nav--projet {
-    margin-top: 0;
-    display: inline-block;
-    margin-left: 20%;
+.page__accueil .active, .page__accueil .dot:hover {
+  background-color: #2B5BA1;
+}
+.page__accueil .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
   }
 }
 .page__accueil .lien--projet {
-  margin-bottom: 25px;
+  margin: 0 0 25px 20px;
   color: #1E98D7;
   font-size: 18px;
   font-weight: bold;
@@ -856,7 +901,17 @@ body {
   .page__accueil .lien--projet {
     margin-top: 0;
     display: block;
-    margin-left: 55%;
+    margin-left: 57%;
+  }
+}
+
+.points {
+  margin: 0 0 25px 0;
+}
+@media (min-width: 600px) {
+  .points {
+    width: 50%;
+    display: inline-block;
   }
 }
 
@@ -1166,6 +1221,22 @@ body {
   background-color: white;
   border: 2px #2B5BA1 solid;
   color: #2B5BA1;
+}
+.page__joindre button:disabled {
+  background-color: grey;
+}
+.page__joindre button:disabled:hover {
+  border: none;
+  text-decoration: none;
+}
+
+.messageErreur {
+  color: #BB3E3E;
+  margin-top: 0;
+}
+
+.formulaire__inputErreur {
+  border: 2px solid #BB3E3E;
 }
 
 /** Typographie **/

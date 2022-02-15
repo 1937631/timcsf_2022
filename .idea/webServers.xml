@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6f886e02-cb4d-4395-aeb4-8f602250b785" name="Server_tim_timunix" url="http://timunix2.cegep-ste-foy.qc.ca/~gilbertd/public_html/rpni4/timcsf2022">
+        <fileTransfer rootFolder="/home/2019/gilbertd/public_html/rpni4/timcsf2022" accessType="SFTP" host="timunix2.cegep-ste-foy.qc.ca" port="22" sshConfigId="475d86bc-5ecd-45a9-9474-30ef73ebbf4d" sshConfig="gilbertd@timunix2.cegep-ste-foy.qc.ca:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
