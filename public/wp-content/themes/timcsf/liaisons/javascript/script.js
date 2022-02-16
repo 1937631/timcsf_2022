@@ -14,6 +14,7 @@ function menuBurger() {
 
 //////Validation côté client
 
+
 let allValide = false;
 let role = false;
 let prenom = false;
@@ -95,6 +96,7 @@ function verifierChamp(nomChamp, regex) {
         return false;
     }
 }
+
 
 
 /////Visionneuse projets accueil

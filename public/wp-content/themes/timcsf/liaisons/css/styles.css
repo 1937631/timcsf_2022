@@ -1239,6 +1239,11 @@ body {
   border: 2px solid #BB3E3E;
 }
 
+.messageSucces {
+  color: #3E833D;
+  font-weight: bold;
+}
+
 /** Typographie **/
 /**
 * @author Prenom Nom courriel

@@ -31,6 +31,8 @@ $autres = get_post(77);
 $grillecours = get_post(78);
 
 $etudiantJour = get_post(60);
+
+$questions = get_post(62);
 ?>
 <main class="page">
     <?php the_post(); ?>
@@ -113,7 +115,15 @@ $etudiantJour = get_post(60);
     <a href="<?php echo get_page_link( get_page_by_title( "Nous joindre" )->ID); ?>?ID=<?php echo $post_object->ID; ?>">
         <?php echo $post_object->post_title;?>
     </a>
-
+    <h3><?php echo $questions->post_title; ?></h3>
+    <p><?php echo $questions->post_content; ?></p>
+    <?php
+    $lienSylvain = get_field_object("lien_responsable", $questions);
+    $post_object2=$lienSylvain["value"];
+    ?>
+    <a href="<?php echo get_page_link( get_page_by_title( "Nous joindre" )->ID); ?>?ID=<?php echo $post_object2->ID; ?>">
+        <?php echo $post_object2->post_title;?>
+    </a>
     <h3>Convaicu.e? Inscris-toi!</h3>
     <p>Les demandes d’admission au programme TIM sont reçues avant le 1er mars de chaque année (1er tour), le 1er mai (2e tour), le 1er juin (3e tour) et le 1er août (4e tour). Pour compléter ta demande d’admission à notre programme, tu dois t’adresser au Service régional d’admission au collégial de Québec (SRACQ)</p>
     <a href="#">Je m'inscris</a>
