@@ -22,7 +22,7 @@ echo "index.php";
         array_push($arrProjets, $random);
     }
     ?>
-    <div class="section__projets">
+    <div class="section__projets" id="slideshow">
         <p style="display: none" id="hiddenInfo"></p>
         <h2>Des projets éducatifs</h2>
         <div class="carre">

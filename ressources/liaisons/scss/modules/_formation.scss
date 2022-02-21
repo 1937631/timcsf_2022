@@ -1,0 +1,261 @@
+.page__formation{
+  margin: 0;
+  h2, h3, small {
+    margin: 10px 20px 10px 20px;
+    text-transform: none;
+  }
+  p{
+    margin: 0 20px 0 20px;
+  }
+  .listeProgrammes{
+    margin: 0 20px 0 20px;
+    list-style: none;
+    padding-inline-start: 0;
+    &__li{
+      margin: 10px 0 10px 0;
+      padding: 20px 10px 20px 10px;
+      background-color: #2B5BA1;
+      color: white;
+      font-size: 0.5em;
+      transition: 0.2s;
+      border-radius: 10px;
+      font-weight: bold;
+      &:nth-of-type(1), &:nth-of-type(5){
+        background-color: #BB3E3E;
+      }
+      &:nth-of-type(3), &:nth-of-type(7){
+        background-color: #A388B8;
+        color: black;
+        a{
+          color: black;
+          &:hover{
+            color: blue;
+          }
+        }
+      }
+      &:hover{
+        box-shadow: grey 5px 5px 5px;
+        cursor: pointer;
+      }
+      &:focus{
+        font-size: 1em;
+        cursor: default;
+
+      }
+      a{
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+        color: white;
+        font-weight: normal;
+        &:hover{
+          color: mediumpurple;
+        }
+      }
+
+      ul{
+        padding-top: 10px;
+        list-style: none;
+        padding-inline-start: 0;
+
+      }
+    }
+  }
+  .listeEmployeurs{
+    margin: 0 20px 0 20px;
+    ul{
+      list-style: none;
+      padding-inline-start: 0;
+      li{
+        padding: 20px 0 20px 0;
+
+      }
+    }
+  }
+  .listeEmplois{
+    margin: 0 20px 0 20px;
+    ul{
+      list-style: none;
+      padding-inline-start: 0;
+      li{
+        padding: 10px;
+        border: 2px solid #2B5BA1;
+        margin-top: 10px;
+
+      }
+    }
+
+  }
+  .cache{
+     display: none;
+  }
+  img{
+    margin: 20px 0 0 0;
+  }
+  .listeCours{
+    h3{
+      margin: 0;
+    }
+    padding-inline-start: 0;
+    margin: 0 20px 0 20px;
+    #cours{
+      &0{
+        h3{
+          color: #2B5BA1;
+          font-size: 2em;
+          margin-bottom: 20px;
+        }
+      }
+      &1{
+        h3{
+          color: #BB3E3E;
+          font-size: 2em;
+          margin-bottom: 20px;
+        }
+      }
+      &2{
+        h3{
+          color: #A388B8;
+          font-size: 2em;
+          margin-bottom: 20px;
+        }
+      }
+      &3{
+        h3{
+          color: #FFB800;
+          font-size: 2em;
+          margin-bottom: 20px;
+        }
+      }
+      &4{
+        h3 {
+          color: #56C954;
+          font-size: 2em;
+        }
+      }
+    }
+    li{
+      h3{
+        font-size: 2em;
+        margin-bottom: 20px;
+      }
+      ul{
+        margin-top: 20px;
+        padding-inline-start: 0;
+        li{
+          display: inline-block;
+          width: 45%;
+          border: #2B5BA1 2px solid;
+          margin-bottom: 10px;
+          padding: 5px;
+          transition: 0.2s ease-in;
+          &:hover{
+            background-color: #2B5BA1;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  .grilleCours{
+    background-color: #C4C4C4;
+    padding: 20px 20px 30px 20px;
+    margin: 0 20px 40px 20px;
+    box-shadow: #2B5BA1 -10px 10px 0px;
+    h3{
+      font-size: 24px;
+      margin: 0;
+    }
+    p{
+      font-size: 16px;
+      margin: 20px 0 20px 0;
+      a{
+        display: none;
+      }
+    }
+    a{
+      border: #2B5BA1 solid 2px;
+      border-radius: 10px;
+      background-color: white;
+      color: #2B5BA1;
+      text-decoration: none;
+      padding: 10px 50px 10px 50px;
+      margin-left: 15%;
+      transition: 0.2s;
+      font-weight: 500;
+      &:hover{
+        text-decoration: underline;
+      }
+      &:active{
+        background-color: #2B5BA1;
+        color: white;
+      }
+    }
+  }
+  .videoTim{
+    margin: 30px 0 30px 0;
+    width: 100%;
+    height: auto;
+  }
+  .etudiantJour{
+    margin-bottom: 40px;
+    h3{
+      font-size: 24px;
+    }
+    p{
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    a:last-of-type{
+      border: #2B5BA1 solid 2px;
+      border-radius: 10px;
+      background-color: white;
+      color: #2B5BA1;
+      text-decoration: none;
+      margin: 0 20px 0 20px;
+      padding: 10px 10px 10px 10px;
+      transition: 0.2s;
+      font-weight: 500;
+      font-size: 14px;
+      width: 100%;
+      &:hover{
+        text-decoration: underline;
+      }
+      &:active{
+        background-color: #2B5BA1;
+        color: white;
+      }
+    }
+  }
+  .inscription{
+    margin-bottom: 40px;
+    h3{
+      font-size: 24px;
+    }
+    p{
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    a:last-of-type{
+      border: #2B5BA1 solid 2px;
+      border-radius: 10px;
+      background-color: #2B5BA1;
+      color: white;
+      text-decoration: none;
+      margin: 0 20px 0 20px;
+      padding: 10px 40px 10px 40px;
+      transition: 0.2s;
+      font-weight: 500;
+      font-size: 14px;
+      width: 100%;
+      box-shadow: grey 6px 6px 6px;
+      &:hover{
+        text-decoration: underline;
+      }
+      &:active{
+        background-color: white;
+        color: #2B5BA1;
+      }
+    }
+  }
+}

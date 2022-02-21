@@ -1244,6 +1244,248 @@ body {
   font-weight: bold;
 }
 
+.page__formation {
+  margin: 0;
+}
+.page__formation h2, .page__formation h3, .page__formation small {
+  margin: 10px 20px 10px 20px;
+  text-transform: none;
+}
+.page__formation p {
+  margin: 0 20px 0 20px;
+}
+.page__formation .listeProgrammes {
+  margin: 0 20px 0 20px;
+  list-style: none;
+  padding-inline-start: 0;
+}
+.page__formation .listeProgrammes__li {
+  margin: 10px 0 10px 0;
+  padding: 20px 10px 20px 10px;
+  background-color: #2B5BA1;
+  color: white;
+  font-size: 0.5em;
+  transition: 0.2s;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.page__formation .listeProgrammes__li:nth-of-type(1), .page__formation .listeProgrammes__li:nth-of-type(5) {
+  background-color: #BB3E3E;
+}
+.page__formation .listeProgrammes__li:nth-of-type(3), .page__formation .listeProgrammes__li:nth-of-type(7) {
+  background-color: #A388B8;
+  color: black;
+}
+.page__formation .listeProgrammes__li:nth-of-type(3) a, .page__formation .listeProgrammes__li:nth-of-type(7) a {
+  color: black;
+}
+.page__formation .listeProgrammes__li:nth-of-type(3) a:hover, .page__formation .listeProgrammes__li:nth-of-type(7) a:hover {
+  color: blue;
+}
+.page__formation .listeProgrammes__li:hover {
+  box-shadow: grey 5px 5px 5px;
+  cursor: pointer;
+}
+.page__formation .listeProgrammes__li:focus {
+  font-size: 1em;
+  cursor: default;
+}
+.page__formation .listeProgrammes__li a {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  color: white;
+  font-weight: normal;
+}
+.page__formation .listeProgrammes__li a:hover {
+  color: mediumpurple;
+}
+.page__formation .listeProgrammes__li ul {
+  padding-top: 10px;
+  list-style: none;
+  padding-inline-start: 0;
+}
+.page__formation .listeEmployeurs {
+  margin: 0 20px 0 20px;
+}
+.page__formation .listeEmployeurs ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+.page__formation .listeEmployeurs ul li {
+  padding: 20px 0 20px 0;
+}
+.page__formation .listeEmplois {
+  margin: 0 20px 0 20px;
+}
+.page__formation .listeEmplois ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+.page__formation .listeEmplois ul li {
+  padding: 10px;
+  border: 2px solid #2B5BA1;
+  margin-top: 10px;
+}
+.page__formation .cache {
+  display: none;
+}
+.page__formation img {
+  margin: 20px 0 0 0;
+}
+.page__formation .listeCours {
+  padding-inline-start: 0;
+  margin: 0 20px 0 20px;
+}
+.page__formation .listeCours h3 {
+  margin: 0;
+}
+.page__formation .listeCours #cours0 h3 {
+  color: #2B5BA1;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.page__formation .listeCours #cours1 h3 {
+  color: #BB3E3E;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.page__formation .listeCours #cours2 h3 {
+  color: #A388B8;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.page__formation .listeCours #cours3 h3 {
+  color: #FFB800;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.page__formation .listeCours #cours4 h3 {
+  color: #56C954;
+  font-size: 2em;
+}
+.page__formation .listeCours li h3 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.page__formation .listeCours li ul {
+  margin-top: 20px;
+  padding-inline-start: 0;
+}
+.page__formation .listeCours li ul li {
+  display: inline-block;
+  width: 45%;
+  border: #2B5BA1 2px solid;
+  margin-bottom: 10px;
+  padding: 5px;
+  transition: 0.2s ease-in;
+}
+.page__formation .listeCours li ul li:hover {
+  background-color: #2B5BA1;
+  color: white;
+}
+.page__formation .grilleCours {
+  background-color: #C4C4C4;
+  padding: 20px 20px 30px 20px;
+  margin: 0 20px 40px 20px;
+  box-shadow: #2B5BA1 -10px 10px 0px;
+}
+.page__formation .grilleCours h3 {
+  font-size: 24px;
+  margin: 0;
+}
+.page__formation .grilleCours p {
+  font-size: 16px;
+  margin: 20px 0 20px 0;
+}
+.page__formation .grilleCours p a {
+  display: none;
+}
+.page__formation .grilleCours a {
+  border: #2B5BA1 solid 2px;
+  border-radius: 10px;
+  background-color: white;
+  color: #2B5BA1;
+  text-decoration: none;
+  padding: 10px 50px 10px 50px;
+  margin-left: 15%;
+  transition: 0.2s;
+  font-weight: 500;
+}
+.page__formation .grilleCours a:hover {
+  text-decoration: underline;
+}
+.page__formation .grilleCours a:active {
+  background-color: #2B5BA1;
+  color: white;
+}
+.page__formation .videoTim {
+  margin: 30px 0 30px 0;
+  width: 100%;
+  height: auto;
+}
+.page__formation .etudiantJour {
+  margin-bottom: 40px;
+}
+.page__formation .etudiantJour h3 {
+  font-size: 24px;
+}
+.page__formation .etudiantJour p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.page__formation .etudiantJour a:last-of-type {
+  border: #2B5BA1 solid 2px;
+  border-radius: 10px;
+  background-color: white;
+  color: #2B5BA1;
+  text-decoration: none;
+  margin: 0 20px 0 20px;
+  padding: 10px 10px 10px 10px;
+  transition: 0.2s;
+  font-weight: 500;
+  font-size: 14px;
+  width: 100%;
+}
+.page__formation .etudiantJour a:last-of-type:hover {
+  text-decoration: underline;
+}
+.page__formation .etudiantJour a:last-of-type:active {
+  background-color: #2B5BA1;
+  color: white;
+}
+.page__formation .inscription {
+  margin-bottom: 40px;
+}
+.page__formation .inscription h3 {
+  font-size: 24px;
+}
+.page__formation .inscription p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.page__formation .inscription a:last-of-type {
+  border: #2B5BA1 solid 2px;
+  border-radius: 10px;
+  background-color: #2B5BA1;
+  color: white;
+  text-decoration: none;
+  margin: 0 20px 0 20px;
+  padding: 10px 40px 10px 40px;
+  transition: 0.2s;
+  font-weight: 500;
+  font-size: 14px;
+  width: 100%;
+  box-shadow: grey 6px 6px 6px;
+}
+.page__formation .inscription a:last-of-type:hover {
+  text-decoration: underline;
+}
+.page__formation .inscription a:last-of-type:active {
+  background-color: white;
+  color: #2B5BA1;
+}
+
 /** Typographie **/
 /**
 * @author Prenom Nom courriel
