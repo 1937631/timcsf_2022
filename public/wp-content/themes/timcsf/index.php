@@ -1,5 +1,24 @@
 <?php get_header();
 echo "index.php";
+
+$argsProjets = array(
+    'post_type' => 'projets',
+    'posts_per_page' => -1,
+    'post_status' => 'publish',
+);
+
+$the_queryF = new WP_Query($argsProjets);
+
+$arrProjets = array();
+if ($the_queryF->have_posts()){
+    while ($the_queryF->have_posts() ){
+        $the_queryF->the_post();
+        array_push($arrProjets, $post);
+    }
+
+}
+
+wp_reset_postdata();
 ?>
 <main class="page__accueil">
     <h2>Qu'est-ce que la formation TIM</h2>
@@ -16,10 +35,10 @@ echo "index.php";
         <a href="<?php echo get_page_link( get_page_by_title( "Les TIM, qu'est-ce que c'est?" )->ID ); ?>">Voir les détails de la formation ></a>
     </div>
     <?php
-    $arrProjets = array();
+    $arrRandom = array();
     for($cptRand = 0; $cptRand < 4; $cptRand++){
         $random = rand(1, 83);
-        array_push($arrProjets, $random);
+        array_push($arrRandom, $random);
     }
     ?>
     <div class="section__projets" id="slideshow">
@@ -28,14 +47,22 @@ echo "index.php";
         <div class="carre">
             <?php
             for($cptVisionneuse = 0; $cptVisionneuse < 4; $cptVisionneuse++){ ?>
+
                     <div class="mySlides fade" >
-                        <img src="<?php echo get_template_directory_uri();?>../../../uploads/2022/02/prj<?php echo $arrProjets[$cptVisionneuse]; ?>_01.jpg" alt="">
+                        <img src="<?php echo get_template_directory_uri();?>../../../uploads/2022/02/prj<?php echo $arrRandom[$cptVisionneuse]; ?>_01.jpg" alt="">
+                        <?php
+                        for($cpt=0;$cpt<count($arrProjets);$cpt++) {
+                            if ($arrRandom[$cptVisionneuse] == get_field("id", $arrProjets[$cpt]->ID)) { ?>
+                        <a href="<?php echo get_the_permalink($arrProjets[$cpt]->ID) ?>">
                         <p>
-                            <?php
-                            $post = get_post($arrProjets[$cptVisionneuse] + 131);
-                            echo $post->post_title;
-                            ?>
+
+                                    <?php echo get_field("titre", $arrProjets[$cpt]->ID); ?>
+
                         </p>
+                        </a>
+                                <?php }
+                                }
+                                ?>
                     </div>
 
 

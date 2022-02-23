@@ -33,6 +33,25 @@ $grillecours = get_post(78);
 $etudiantJour = get_post(60);
 
 $questions = get_post(62);
+
+$args = array(
+    'post_type' => 'temoignages',
+    'posts_per_page' => -1,
+    'post_status' => 'publish',
+    'order_by' => 'post_date',
+    'order' => 'ASC',
+);
+$the_query = new WP_Query( $args );
+function clean($string) {
+    $string = str_replace(' ', '_', $string); // Replaces all spaces with hyphens.
+    $string = str_replace('-', '_', $string);
+    $string = str_replace('.', '', $string);
+    $string = str_replace('é', 'e', $string);
+    $string = str_replace('è', 'e', $string);
+    $string = str_replace('È', 'e', $string);
+    $string = str_replace('É', 'e', $string);// Removes special chars.
+    return strtolower($string);
+}
 ?>
 <main class="page__formation">
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -62,12 +81,14 @@ $questions = get_post(62);
 
             var chart = new google.visualization.PieChart(document.getElementById('piechart'));
             if(document.getElementById('piechart') !== null){
-                setInterval(verifierQuelClique, 100);
+                setInterval(verifierQuelClique, 1);
                 function verifierQuelClique(){
                     var selection = chart.getSelection();
+
                     for (var cpt = 0; cpt <= 4; cpt++){
                         document.getElementById('cours' + cpt).style.display = "none";
                     }
+
                     for (var i = 0; i < selection.length; i++) {
                         var item = selection[i];
                         document.getElementById('cours' + item.row).style.display = "inline";
@@ -82,22 +103,37 @@ $questions = get_post(62);
         <h2><?php the_title(); ?></h2>
 
     </div>
-    <h3>Programmes d'études possibles</h3>
-    <small>*Cliquez les bulles pour les aggrandir</small>
-    <ul class="listeProgrammes">
-        <li class="listeProgrammes__li" tabindex="0">Université du Québec en Abitibi-Témiscamingue: <?php echo $uqat->post_content; ?></li>
-        <li class="listeProgrammes__li" tabindex="1">École de design — Université Laval: <?php echo $ulavald->post_content; ?></li>
-        <li class="listeProgrammes__li" tabindex="2">Technologies de l’information — Université Laval: <?php echo $ulavalti->post_content; ?></li>
-        <li class="listeProgrammes__li" tabindex="3">Faculté de communication — UQAM: <?php echo $uqam->post_content; ?></li>
-        <li class="listeProgrammes__li" tabindex="4">École de technologie supérieure (ÉTS): <?php echo $ets->post_content; ?></li>
-        <li class="listeProgrammes__li" tabindex="5">Université du Québec à Chicoutimi: <?php echo $uqac->post_content; ?></li>
-        <li class="listeProgrammes__li" tabindex="6">Université Concordia, Montréal: <?php echo $uc->post_content; ?></li>
-    </ul>
-    <h3>Types d'employeurs potentiels:</h3>
-    <div class="listeEmployeurs"><?php echo $typesEmployeurs->post_content; ?></div>
 
-    <h3>Emplois possibles:</h3>
-    <div class="listeEmplois"><?php echo $titresEmplois->post_content; ?></div>
+    <div class="conteneur__conteneur">
+        <div class="conteneur_1">
+            <h3>Programmes d'études possibles</h3>
+            <small>*Cliquez les bulles pour les aggrandir</small>
+            <ul class="listeProgrammes">
+                <li class="listeProgrammes__li" tabindex="0">Université du Québec en Abitibi-Témiscamingue: <?php echo $uqat->post_content; ?></li>
+                <li class="listeProgrammes__li" tabindex="1">École de design — Université Laval: <?php echo $ulavald->post_content; ?></li>
+                <li class="listeProgrammes__li" tabindex="2">Technologies de l’information — Université Laval: <?php echo $ulavalti->post_content; ?></li>
+                <li class="listeProgrammes__li" tabindex="3">Faculté de communication — UQAM: <?php echo $uqam->post_content; ?></li>
+                <li class="listeProgrammes__li" tabindex="4">École de technologie supérieure (ÉTS): <?php echo $ets->post_content; ?></li>
+                <li class="listeProgrammes__li" tabindex="5">Université du Québec à Chicoutimi: <?php echo $uqac->post_content; ?></li>
+                <li class="listeProgrammes__li" tabindex="6">Université Concordia, Montréal: <?php echo $uc->post_content; ?></li>
+            </ul>
+        </div>
+
+
+        <div class="conteneur_1">
+            <h3>Types d'employeurs potentiels:</h3>
+            <div class="listeEmployeurs">
+                <?php echo $typesEmployeurs->post_content; ?>
+            </div>
+            <h3>Emplois possibles:</h3>
+            <div class="listeEmplois"><?php echo $titresEmplois->post_content; ?></div>
+        </div>
+
+    </div>
+
+
+
+
 
     <ul class="listeEmploisInfos">
       <li class="cache">
@@ -113,13 +149,17 @@ $questions = get_post(62);
             <?php echo $profession4->post_content; ?>
         </li class="cache">
     </ul>
-    <p>
+    <div class="contenuPrincipal">
 
         <?php the_content(); ?>
-    </p>
-    <img src="<?php echo get_template_directory_uri();?>../../../uploads/2022/02/iconCloud.png">
-    <img src="<?php echo get_template_directory_uri();?>../../../uploads/2022/02/separateurMobile.png">
-    <div id="piechart" style="width: 100%; height: 300px; margin-top: 20px"></div>
+    </div>
+    <img  class="imagePictogramme" src="<?php echo get_template_directory_uri();?>../../../uploads/2022/02/iconCloud.png" alt="pictogramme">
+    <img class="imageSeparateur" src="" id="separateur" alt="separateur">
+    <h4 id="placeholderText" class="placeholderText">Appuyez sur le diagramme à pointes de tartes pour avoir plus d'informations:</h4>
+    <div id="piechart" onclick="function effacerPlaceholder() {
+    document.getElementById('placeholderText').style.display = 'none';
+    }
+    effacerPlaceholder()"></div>
     <ul class="listeCours">
         <li id="cours0">
             <h3><?php echo str_replace("Formation - ", "", $programmation->post_title); ?></h3>
@@ -142,6 +182,7 @@ $questions = get_post(62);
             <?php echo $autres->post_content; ?>
         </li>
     </ul>
+    <div class="conteneur__grilleCours--video">
     <div class="grilleCours">
         <h3><?php echo $grillecours->post_title; ?></h3>
         <p><?php echo str_replace("https://www.csfoy.ca/programmes/tous-les-programmes/programmes-techniques/techniques-dintegration-multimedia-web-et-apps/", "", $grillecours->post_content); ?></p>
@@ -151,7 +192,10 @@ $questions = get_post(62);
     </div>
 
     <iframe class="videoTim" src="https://www.youtube.com/embed/qfcalITCASk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <div class="etudiantJour">
+    </div>
+    <div class="conteneur__etuQueInsTem">
+        <div class="conteneur__gauche">
+        <div class="etudiantJour">
         <h3><?php echo $etudiantJour->post_title; ?></h3>
         <p>
             <?php echo $etudiantJour->post_content; ?>
@@ -180,9 +224,56 @@ $questions = get_post(62);
     <div class="inscription">
         <h3>Convaicu.e? Inscris-toi!</h3>
         <p>Les demandes d’admission au programme TIM sont reçues avant le 1er mars de chaque année (1er tour), le 1er mai (2e tour), le 1er juin (3e tour) et le 1er août (4e tour). </p> <p>Pour compléter ta demande d’admission à notre programme, tu dois t’adresser au Service régional d’admission au collégial de Québec (SRACQ)</p>
-        <a href="#">Je m'inscris</a>
+        <a href="https://www.sracq.qc.ca/">Je m'inscris</a>
     </div>
+        </div>
+    <?php
+    if($the_query->have_posts()){ ?>
+            <div class="temoignages">
+            <h3>Témoignages de diplômé.es</h3>
+        <ul class="listeTemoignages" id="slideshow">
+            <?php while($the_query->have_posts()) {
+                $the_query->the_post();?>
+            <div class="mySlides fade" >
+                <li class="li__temoignages">
+                        <?php //Photo obtient un tableau (sizes) contenant les différentes tailles d'image
+                        //ici on affiche seulement la taille thumbnail
 
+                        $nomChange = clean(get_field("temoin"));
+                        ?>
+
+
+                        <ul>
+                            <img src="<?php echo get_template_directory_uri();?>../../../uploads/2022/02/<?php echo $nomChange;?>.jpg"/>
+                            <li><?php echo get_field("temoin");?></li>
+                            <li><?php echo get_field("titre_poste");?></li>
+                            <li><?php echo get_field("entreprise");?></li>
+                            <li><?php echo get_field("url_entreprise");?></li>
+                            <li>Diplômé.e en <?php echo get_field("annee_diplomation");?></li>
+                            <li><?php echo get_field("temoignage");?></li>
+
+                        </ul>
+
+                </li>
+
+            </div>
+
+            <?php }
+            ?>
+            <div class="fleche--gauche" onclick="plusSlides(-1)"></div>
+            <div class="fleche--droite" onclick="plusSlides(1)"></div>
+        </ul>
+        <div class="points" style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+            </div>
+    </div>
+        <?php
+    }
+    ?>
 </main>
 
 <?php get_footer(); ?>

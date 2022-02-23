@@ -133,5 +133,12 @@ if(document.getElementById('slideshow') !== null){
         dots[slideIndex-1].className += " active";
     }
 }
-
+if(document.getElementById("separateur") !== null){
+    if(screen.width <= 600){
+        document.getElementById("separateur").src = "../wp-content/uploads/2022/02/separateurMobile.png";
+    }
+    else{
+        document.getElementById("separateur").src = "../wp-content/uploads/2022/02/separateurTable.png";
+    }
+}
 

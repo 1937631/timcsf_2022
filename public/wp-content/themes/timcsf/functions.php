@@ -177,4 +177,45 @@ function tim_projets_custom_post() {
 }
 
 add_action( 'init', 'tim_projets_custom_post', 0 );
+function tim_diplomes_custom_post() {
+
+    //On rentre les différentes dénominations de notre article personnalisé type
+    //qui seront affichées dans l'interface administrative...
+    $labels = array(
+        // Le nom au pluriel
+        'name'                => _x( 'Diplômés de la TIM', 'Post Type General Name'),
+        // Le nom au singulier
+        'singular_name'       => _x( 'Diplômé', 'Post Type Singular Name'),
+        // Le libellé affiché dans le menu
+        'menu_name'           => __( 'Diplômés'),
+        //Les différents libellés de l'interface administrative
+        'all_items'           => __( 'Tous les diplômés'),
+        'view_item'           => __( 'Voir les diplômés'),
+        'add_new_item'        => __( 'Ajouter un nouveau diplômé'),
+        'add_new'             => __( 'Ajouter'),
+        'edit_item'           => __( 'Editer un diplômé'),
+        'update_item'         => __( 'Modifier un diplômé'),
+        'search_items'        => __( 'Rechercher un diplômé'),
+        'not_found'           => __( 'Non trouvé'),
+        'not_found_in_trash'  => __( 'Non trouvé dans la corbeille'),
+    );
+
+    //On peut définir ici d'autres options pour notre type d'article personnalisé
+    $args = array(
+        'label'               => __( 'Nos diplômés'),
+        'description'         => __( 'Tous les diplômés des TIM'),
+        'labels'              => $labels,
+        'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail',
+            'comments', 'revisions', 'custom-fields', ),
+        'hierarchical'        => false,
+        'public'              => true,
+        'has_archive'         => true,
+        'rewrite'			  => array( 'slug' => 'diplomes'),
+    );
+
+    // On enregistre notre type d'article personnalisé qu'on nomme ici "responsables" et ses arguments
+    register_post_type( 'diplomes', $args );
+}
+
+add_action( 'init', 'tim_diplomes_custom_post', 0 );
 ?>

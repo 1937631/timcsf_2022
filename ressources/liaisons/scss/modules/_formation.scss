@@ -1,5 +1,10 @@
 .page__formation{
   margin: 0;
+  h2{
+    @media (min-width: 600px) {
+      font-size: 2em;
+    }
+  }
   h2, h3, small {
     margin: 10px 20px 10px 20px;
     text-transform: none;
@@ -7,10 +12,28 @@
   p{
     margin: 0 20px 0 20px;
   }
+  .conteneur__conteneur{
+    @media (min-width: 600px) {
+      display: flex;
+      flex-direction: row;
+    }
+    .conteneur_1{
+      @media (min-width: 600px){
+        width: 50%;
+      }
+    }
+  }
   .listeProgrammes{
     margin: 0 20px 0 20px;
     list-style: none;
     padding-inline-start: 0;
+    @media(min-width: 600px){
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: stretch;
+      justify-content: space-between;
+    }
     &__li{
       margin: 10px 0 10px 0;
       padding: 20px 10px 20px 10px;
@@ -20,16 +43,30 @@
       transition: 0.2s;
       border-radius: 10px;
       font-weight: bold;
+      @media(min-width: 600px){
+        width: 49%;
+        vertical-align: top;
+        font-size: 0.7em;
+        border-radius: 30px;
+      }
       &:nth-of-type(1), &:nth-of-type(5){
         background-color: #BB3E3E;
       }
+      &:nth-of-type(5){
+      @media (min-width: 600px) {
+        width: 100%;
+      }
+    }
       &:nth-of-type(3), &:nth-of-type(7){
         background-color: #A388B8;
         color: black;
+
         a{
           color: black;
+          text-decoration: none;
           &:hover{
             color: blue;
+            text-decoration: underline;
           }
         }
       }
@@ -48,8 +85,10 @@
         word-break: break-word;
         color: white;
         font-weight: normal;
+        text-decoration: none;
         &:hover{
           color: mediumpurple;
+          text-decoration: underline;
         }
       }
 
@@ -63,6 +102,10 @@
   }
   .listeEmployeurs{
     margin: 0 20px 0 20px;
+    @media (min-width: 600px){
+      width: 100%;
+
+    }
     ul{
       list-style: none;
       padding-inline-start: 0;
@@ -89,8 +132,22 @@
   .cache{
      display: none;
   }
-  img{
+  .contenuPrincipal{
+    @media (min-width: 600px){
+      display: inline-block;
+      width: 50%;
+    }
+  }
+  .imagePictogramme{
+    @media (min-width: 600px) {
+      display: inline-block;
+      float: right;
+      margin: 20px 15% 0 0;
+    }
+  }
+  .imageSeparateur{
     margin: 20px 0 0 0;
+    width: 100%;
   }
   .listeCours{
     h3{
@@ -104,6 +161,9 @@
           color: #2B5BA1;
           font-size: 2em;
           margin-bottom: 20px;
+          @media(min-width: 600px){
+            margin-top: 30px;
+          }
         }
       }
       &1{
@@ -111,6 +171,9 @@
           color: #BB3E3E;
           font-size: 2em;
           margin-bottom: 20px;
+          @media(min-width: 600px){
+            margin-top: 30px;
+          }
         }
       }
       &2{
@@ -118,6 +181,9 @@
           color: #A388B8;
           font-size: 2em;
           margin-bottom: 20px;
+          @media(min-width: 600px){
+            margin-top: 30px;
+          }
         }
       }
       &3{
@@ -125,16 +191,23 @@
           color: #FFB800;
           font-size: 2em;
           margin-bottom: 20px;
+          @media(min-width: 600px){
+            margin-top: 30px;
+          }
         }
       }
       &4{
         h3 {
           color: #56C954;
           font-size: 2em;
+          @media(min-width: 600px){
+            margin-top: 30px;
+          }
         }
       }
     }
     li{
+
       h3{
         font-size: 2em;
         margin-bottom: 20px;
@@ -157,11 +230,20 @@
       }
     }
   }
+  .conteneur__grilleCours--video{
+    @media (min-width: 600px) {
+      display: flex;
+    }
+  }
   .grilleCours{
     background-color: #C4C4C4;
     padding: 20px 20px 30px 20px;
     margin: 0 20px 40px 20px;
     box-shadow: #2B5BA1 -10px 10px 0px;
+    @media(min-width: 600px){
+      margin-top: 40px;
+      width: 45%;
+    }
     h3{
       font-size: 24px;
       margin: 0;
@@ -169,6 +251,7 @@
     p{
       font-size: 16px;
       margin: 20px 0 20px 0;
+
       a{
         display: none;
       }
@@ -183,6 +266,10 @@
       margin-left: 15%;
       transition: 0.2s;
       font-weight: 500;
+      @media(min-width: 600px){
+        margin-left: 25%;
+        padding: 10px 100px 10px 100px;
+      }
       &:hover{
         text-decoration: underline;
       }
@@ -195,10 +282,25 @@
   .videoTim{
     margin: 30px 0 30px 0;
     width: 100%;
-    height: auto;
+    height: 225px;
+    @media (min-width: 600px) {
+      width: 45%;
+      height: 325px;
+    }
   }
+  .conteneur__etuQueInsTem{
+    @media (min-width: 600px) {
+      display: flex;
+      .conteneur__gauche{
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+  
   .etudiantJour{
     margin-bottom: 40px;
+
     h3{
       font-size: 24px;
     }
@@ -257,5 +359,115 @@
         color: #2B5BA1;
       }
     }
+  }
+  .fleche--droite{
+    width: 0;
+    height: 0;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+    border-left: 35px solid black;
+    border-radius: 10px;
+
+    transition: 0.3s;
+    display: inline-block;
+
+    &:hover{
+      border-left: 35px solid #D7D7D7;
+      cursor: pointer;
+
+    }
+    @media (min-width: 600px){
+    margin-left: 10%;
+    }
+  }
+  .fleche--gauche{
+    width: 0;
+    height: 0;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+    border-right: 35px solid black;
+    border-radius: 10px;
+    margin-right: 70%;
+    transition: 0.3s;
+    display: inline-block;
+
+    &:hover{
+      border-right: 35px solid #D7D7D7;
+      cursor: pointer;
+
+    }
+    @media (min-width: 600px){
+
+    }
+  }
+  .temoignages{
+    @media (min-width: 600px) {
+      width: 50%;
+    }
+    h3{
+      font-size: 24px;
+    }
+    .listeTemoignages{
+      margin: 0 20px 0 20px;
+      background-color: #c7c7c7;
+      list-style: none;
+      padding-inline-start: 0;
+      padding: 20px;
+      box-shadow: #2B5BA1 -10px 10px 0px;
+      .li__temoignages{
+        ul{
+          list-style: none;
+          padding-inline-start: 0;
+          img{
+            float: left;
+            width: 40%;
+            height: 140px;
+            object-fit: cover;
+            margin-right: 20px;
+          }
+          li:nth-child(2){
+            font-weight: bold;
+            overflow-wrap: normal;
+            white-space: nowrap;
+          }
+          li:last-child{
+            width: 100%;
+            white-space: normal;
+            margin: 30px 0 30px 0;
+          }
+          li{
+
+            overflow-wrap: break-word;
+            display: inline-block;
+            width: 50%;
+            font-size: 16px;
+            margin-bottom: 10px;
+
+          }
+
+        }
+      }
+    }
+    margin-bottom: 40px;
+  }
+  #piechart{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    @media (min-width: 600px){
+      width: 50%;
+      float: right;
+    }
+  }
+  .placeholderText{
+    display: none;
+    @media (min-width: 600px) {
+      width: 40%;
+      height: 300px;
+      display: inline-block;
+      margin-left: 20px;
+      font-size: 2em;
+    }
+
   }
 }

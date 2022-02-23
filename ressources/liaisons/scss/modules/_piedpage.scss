@@ -3,11 +3,26 @@
   margin: 0 0;
   background-color: #2B5BA1;
   clear: both;
+  .conteneurPied{
+    @media(min-width: 600px){
+      display: flex;
+      justify-content: space-between;
+    }
+
+  }
   .navigation__secondaire{
+    @media (min-width: 600px) {
+      width: 50%;
+
+    }
     ul{
       margin-left: 20px;
       padding: 30px 0 0 0;
     list-style: none;
+      @media(min-width: 600px){
+        margin-left: 220px;
+
+      }
     li {
       margin: 0 0 30px 0;
       a{
@@ -21,6 +36,14 @@
     }
   }
   }
+  .joignezNous{
+    @media(min-width: 600px){
+      width: 50%;
+      margin: 20px 200px 0 0;
+      text-align: right;
+
+    }
+  }
   h3{
     margin-left: 20px;
     color: white;
@@ -29,6 +52,7 @@
   .liensReseauxSociaux{
     list-style: none;
     padding: 0 0 0 20px;
+
     li{
       display: inline-block;
       margin-right: 10px;
@@ -54,6 +78,9 @@
     img{
       margin: 20px 0 40px 0;
       width: 50%;
+      @media(min-width: 600px){
+        width: 10%;
+      }
     }
   }
 }

@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<id><![CDATA[26]]></id>
+		<nom><![CDATA[Rouleau]]></nom>
+		<prenom><![CDATA[Michel]]></prenom>
+		<presentation><![CDATA[]]></presentation>
+		<interet_gestion_projet><![CDATA[5]]></interet_gestion_projet>
+		<interet_design_interface><![CDATA[5]]></interet_design_interface>
+		<interet_traitement_medias><![CDATA[5]]></interet_traitement_medias>
+		<interet_integration><![CDATA[5]]></interet_integration>
+		<interet_programmation><![CDATA[5]]></interet_programmation>
+		<courriel><![CDATA[]]></courriel>
+		<pseudo_twitter><![CDATA[]]></pseudo_twitter>
+		<linkedin><![CDATA[]]></linkedin>
+		<site_web><![CDATA[]]></site_web>
+		<nom_usager_admin><![CDATA[mrouleau]]></nom_usager_admin>
+	</node>
+	<node>
+		<id><![CDATA[27]]></id>
+		<nom><![CDATA[Bouchard]]></nom>
+		<prenom><![CDATA[Simon]]></prenom>
+		<presentation><![CDATA[<p>Je suis un grand fanatique du web depuis que jai été en contact avec celui-ci pour la première fois, et cette sphère me correspond parfaitement en sachant cela. Je suis particulièrement passionné de <strong>conception</strong> et <strong>dexpérience utilisateur</strong>. Pouvoir créer des interfaces et des expériences adaptées aux utilisateurs potentiels en combinant des concepts <strong>daccessibilité</strong> et de psychologie me stimule particulièrement!</p> 
+<p>Dans les occasions que nous avons eu de faire de la <strong>gestion de projet</strong>, jai sauté sur loccasion pour me prouver, et jai découvert mon propre potentiel dans cette discipline.</p><p>Je me défie constamment dans des projets en <strong>traitement des médias</strong> et en <strong>programmation</strong>, deux disciplines où jai une certaine facilité. Sur Photoshop ou sur Visual Studio Code, je suis toujours prêt à faire des miracles.</p>]]></presentation>
+		<interet_gestion_projet><![CDATA[8]]></interet_gestion_projet>
+		<interet_design_interface><![CDATA[8]]></interet_design_interface>
+		<interet_traitement_medias><![CDATA[9]]></interet_traitement_medias>
+		<interet_integration><![CDATA[6]]></interet_integration>
+		<interet_programmation><![CDATA[8]]></interet_programmation>
+		<courriel><![CDATA[simonbouchard72@gmail.com]]></courriel>
+		<pseudo_twitter><![CDATA[]]></pseudo_twitter>
+		<linkedin><![CDATA[https://www.linkedin.com/in/simon-bouchard-25988a22b/ ]]></linkedin>
+		<site_web><![CDATA[]]></site_web>
+		<nom_usager_admin><![CDATA[1767713]]></nom_usager_admin>
+	</node>
+	<node>
+		<id><![CDATA[28]]></id>
+		<nom><![CDATA[Boutet-Drouin]]></nom>
+		<prenom><![CDATA[Keven]]></prenom>
+		<presentation><![CDATA[<p>Depuis tout jeune je suis captivé par les technologies, et le Web est lune des technologies qui nous unis tous et ce peu importe notre emplacement ou notre condition. Cest pourquoi je mintéresse tout particulièrement à collaborer afin de rendre le Web le plus libre et le plus accessible possible.</p><p>Lapproche damélioration progressive est selon moi un fondement du Web moderne qui évolue en permanence. Cette approche est en lien avec loptimisation de l<strong>expérience utilisateur</strong> et la <strong>qualité du produit</strong>. Pour moi il est primordial que les <strong>standards daccessibilités</strong> soient respectés</p><p>De nature curieux et autodidacte, je suis constamment à la recherche de nouvelle technologie à explorer et à perfectionner mes habilités. Les <strong>librairies</strong> et les <strong>cadriciels</strong>  me passionnent et je recherche constamment les nouvelles tendances du Web.</p>
+]]></presentation>
+		<interet_gestion_projet><![CDATA[9]]></interet_gestion_projet>
+		<interet_design_interface><![CDATA[8]]></interet_design_interface>
+		<interet_traitement_medias><![CDATA[8]]></interet_traitement_medias>
+		<interet_integration><![CDATA[10]]></interet_integration>
+		<interet_programmation><![CDATA[10]]></interet_programmation>
+		<courriel><![CDATA[keven-boutet@hotmail.com]]></courriel>
+		<pseudo_twitter><![CDATA[]]></pseudo_twitter>
+		<linkedin><![CDATA[http://www.linkedin.com/in/keven-boutet-bb4b3521b]]></linkedin>
+		<site_web><![CDATA[]]></site_web>
+		<nom_usager_admin><![CDATA[1941831]]></nom_usager_admin>
+	</node>
+	<node>
+		<id><![CDATA[31]]></id>
+		<nom><![CDATA[Godbout]]></nom>
+		<prenom><![CDATA[Antoine]]></prenom>
+		<presentation><![CDATA[<p>Les technologies du web et du multimédia mont toujours fasciné de par le vaste éventail de possibilités quelles proposent. Jaime bien toucher à tous les aspects du numérique, mais mes principaux intérêts dans le développement restent la <strong>programmation</strong> et l<strong>intégration</strong>.</p><p>Enfin, mon passé dathlète de haut niveau mamène à faire face à tous les défis qui se proposent à moi avec discipline, rigueur et persévérance.</p>]]></presentation>
+		<interet_gestion_projet><![CDATA[6]]></interet_gestion_projet>
+		<interet_design_interface><![CDATA[5]]></interet_design_interface>
+		<interet_traitement_medias><![CDATA[7]]></interet_traitement_medias>
+		<interet_integration><![CDATA[10]]></interet_integration>
+		<interet_programmation><![CDATA[10]]></interet_programmation>
+		<courriel><![CDATA[godbouta2001@gmail.com]]></courriel>
+		<pseudo_twitter><![CDATA[]]></pseudo_twitter>
+		<linkedin><![CDATA[http://www.linkedin.com/in/antoine-godbout/]]></linkedin>
+		<site_web><![CDATA[]]></site_web>
+		<nom_usager_admin><![CDATA[1836729]]></nom_usager_admin>
+	</node>
+	<node>
+		<id><![CDATA[32]]></id>
+		<nom><![CDATA[Gosselin]]></nom>
+		<prenom><![CDATA[Eliane]]></prenom>
+		<presentation><![CDATA[<p>Passionnée pour les arts, je sais organiser avec efficacité linformation dun site web de façon originale et conviviale pour lutilisateur. Mon DEP en infographie et mon DEC en arts visuels mont fait découvrir mon enthousiasme pour le numérique. Persévérante et perfectionniste, je ne compte pas mes heures en ce qui a trait au traitement de l'image, de l'animation et du design. Je suis une travaillante assidue qui sait être à lécoute de son équipe de travail. Étant sérieuse et appliquée, vous pourrez être assuré de compter sur mon sens des responsabilités, de ma créativité et de ma volonté dapprendre sur le métier. Lors de mes stages en infographie, jai su être attentive aux exigences et demandes du milieu.</p>]]></presentation>
+		<interet_gestion_projet><![CDATA[7]]></interet_gestion_projet>
+		<interet_design_interface><![CDATA[10]]></interet_design_interface>
+		<interet_traitement_medias><![CDATA[7]]></interet_traitement_medias>
+		<interet_integration><![CDATA[9]]></interet_integration>
+		<interet_programmation><![CDATA[6]]></interet_programmation>
+		<courriel><![CDATA[elianegosselinart@gmail.com]]></courriel>
+		<pseudo_twitter><![CDATA[]]></pseudo_twitter>
+		<linkedin><![CDATA[]]></linkedin>
+		<site_web><![CDATA[]]></site_web>
+		<nom_usager_admin><![CDATA[1431830]]></nom_usager_admin>
+	</node>
+	<node>
+		<id><![CDATA[33]]></id>
+		<nom><![CDATA[Lavoie]]></nom>
+		<prenom><![CDATA[Gabriel]]></prenom>
+		<presentation><![CDATA[<p>Je suis un ancien diplômé de cinéma qui, à travers plusieurs projets vidéos, a trouvé une nouvelle <strong>passion pour lart visuel </strong>par le biais du domaine Web.</p><p>C'est dans les phases de recherche et planification en cinéma que j'ai appris à quel point des sites Web inefficaces et mal conçus pouvaient être un obstacle à la productivité. Je me suis donc souvent retrouvé à utiliser des <strong>solutions créatives</strong> pour économiser du temps, de l'énergie et de l'argent.</p><p>Mes nouvelles ambitions sont de faciliter la vie des gens sur le web en créant des <strong>expériences utilisateur fluides et percutantes</strong>. Pour créer des produits utiles et efficaces, il faut dabord comprendre <strong>lexpérience humaine</strong>. J'aime utiliser mes compétences, et en apprendre des nouvelles, pour permettre aux gens d'atteindre leurs objectifs.</p>
+]]></presentation>
+		<interet_gestion_projet><![CDATA[7]]></interet_gestion_projet>
+		<interet_design_interface><![CDATA[10]]></interet_design_interface>
+		<interet_traitement_medias><![CDATA[9]]></interet_traitement_medias>
+		<interet_integration><![CDATA[8]]></interet_integration>
+		<interet_programmation><![CDATA[5]]></interet_programmation>
+		<courriel><![CDATA[gwlavoiestfoy@gmail.com]]></courriel>
+		<pseudo_twitter><![CDATA[]]></pseudo_twitter>
+		<linkedin><![CDATA[www.linkedin.com/in/gwjl]]></linkedin>
+		<site_web><![CDATA[https://dribbble.com/gwjl]]></site_web>
+		<nom_usager_admin><![CDATA[1962635]]></nom_usager_admin>
+	</node>
+	<node>
+		<id><![CDATA[34]]></id>
+		<nom><![CDATA[Le Moyne]]></nom>
+		<prenom><![CDATA[Hugues]]></prenom>
+		<presentation><![CDATA[<p>Jadore résoudre des problèmes logiques.</p><p>Cest majoritairement ça qui ma poussé à compléter ma formation en <strong>Technique dIntégration multimédias</strong>. Je possède de très bonnes aptitudes en intégration et en programmation, puisquà mes yeux, ce sont des casse-têtes à résoudre. Si jamais une pièce mest manquante, quelle soit sous la forme dune nouvelle technologie ou dun nouveau langage de programmation, rien ne mempêchera de létudier et de lajouter à mon arsenal.</p>]]></presentation>
+		<interet_gestion_projet><![CDATA[7]]></interet_gestion_projet>
+		<interet_design_interface><![CDATA[6]]></interet_design_interface>
+		<interet_traitement_medias><![CDATA[9]]></interet_traitement_medias>
+		<interet_integration><![CDATA[10]]></interet_integration>
+		<interet_programmation><![CDATA[10]]></interet_programmation>
+		<courriel><![CDATA[hugues.lemoyne@gmail.com]]></courriel>
+		<pseudo_twitter><![CDATA[]]></pseudo_twitter>
+		<linkedin><![CDATA[]]></linkedin>
+		<site_web><![CDATA[]]></site_web>
+		<nom_usager_admin><![CDATA[1964950]]></nom_usager_admin>
+	</node>
+	<node>
+		<id><![CDATA[35]]></id>
+		<nom><![CDATA[Michaud]]></nom>
+		<prenom><![CDATA[Alexandre]]></prenom>
+		<presentation><![CDATA[<p>Jai toujours eu un intérêt envers le Web, son fonctionnement et comment les gens utilisent celui-ci pour transmettre des informations, faire du design ,écrire des articles, télécharger des vidéos, communiquer entre eux et créer des sites Web où des utilisateurs peuvent naviguer en toute liberté. Je présume fortement aux <strong>standards ouverts</strong> et aux <strong>technologies libres</strong> du Web, ainsi quà lamélioration progressive du Web.</p><p>Je mintéresse principalement à la <strong>conception de maquette</strong> de site Web, la production d'<strong>esquisse fonctionnelle</strong>, ainsi que le <strong>design dinterface</strong>. 
+<p>Jai toujours été attiré par le <strong>design dinterface</strong> et de logos. Jai ma petite touche dexpertise dans <strong>Photoshop</strong>, <strong>Figma</strong> et <strong>Axure</strong>, mais si je dois utiliser une application inconnue, il est de mon devoir de découvrir et explorer ce logiciel afin de my habituer.</p> 
+]]></presentation>
+		<interet_gestion_projet><![CDATA[5]]></interet_gestion_projet>
+		<interet_design_interface><![CDATA[10]]></interet_design_interface>
+		<interet_traitement_medias><![CDATA[9]]></interet_traitement_medias>
+		<interet_integration><![CDATA[7]]></interet_integration>
+		<interet_programmation><![CDATA[3]]></interet_programmation>
+		<courriel><![CDATA[alex-Mi@live.ca]]></courriel>
+		<pseudo_twitter><![CDATA[]]></pseudo_twitter>
+		<linkedin><![CDATA[]]></linkedin>
+		<site_web><![CDATA[]]></site_web>
+		<nom_usager_admin><![CDATA[1936987]]></nom_usager_admin>
+	</node>
+	<node>
+		<id><![CDATA[36]]></id>
+		<nom><![CDATA[Niyonkuru]]></nom>
+		<prenom><![CDATA[Aubry Nobel]]></prenom>
+		<presentation><![CDATA[<p>Ayant toujours eu de lintérêt dans le web, je me suis naturellement dirigé vers les TIM pour développer des connaissances en <strong>programmation</strong>,en <strong>intégration</strong> et en <strong>conception</strong>. Je m'intéresse beaucoup aux nouvelles tendances technologiques développées en matière dexpériences utilisateur.</p>]]></presentation>
+		<interet_gestion_projet><![CDATA[6]]></interet_gestion_projet>
+		<interet_design_interface><![CDATA[10]]></interet_design_interface>
+		<interet_traitement_medias><![CDATA[9]]></interet_traitement_medias>
+		<interet_integration><![CDATA[8]]></interet_integration>
+		<interet_programmation><![CDATA[7]]></interet_programmation>
+		<courriel><![CDATA[nobelaubry5@gmail.com]]></courriel>
+		<pseudo_twitter><![CDATA[]]></pseudo_twitter>
+		<linkedin><![CDATA[]]></linkedin>
+		<site_web><![CDATA[]]></site_web>
+		<nom_usager_admin><![CDATA[1944238]]></nom_usager_admin>
+	</node>
+	<node>
+		<id><![CDATA[37]]></id>
+		<nom><![CDATA[Padre]]></nom>
+		<prenom><![CDATA[Gilyann]]></prenom>
+		<presentation><![CDATA[<p>Étudiant français en DUT MMI (Métiers du Multimédia et de lInternet) à luniversité Gustave Eiffel, je suis actuellement en train de terminer mon quatrième semestre au Cégep de Sainte-Foy dans le cadre dune coopération bilatérale. Passionné par les domaines du Web et du multimédia, je me définis comme une personne curieuse, motivée à acquérir de nouvelles compétences et prenant à cur les projets quelle entreprend.</p>]]></presentation>
+		<interet_gestion_projet><![CDATA[9]]></interet_gestion_projet>
+		<interet_design_interface><![CDATA[10]]></interet_design_interface>
+		<interet_traitement_medias><![CDATA[8]]></interet_traitement_medias>
+		<interet_integration><![CDATA[9]]></interet_integration>
+		<interet_programmation><![CDATA[6]]></interet_programmation>
+		<courriel><![CDATA[gilyann.padre@free.fr]]></courriel>
+		<pseudo_twitter><![CDATA[]]></pseudo_twitter>
+		<linkedin><![CDATA[https://www.linkedin.com/in/gilyann-padre-3048921b8/ ]]></linkedin>
+		<site_web><![CDATA[https://gilyann.fr  ]]></site_web>
+		<nom_usager_admin><![CDATA[2201457]]></nom_usager_admin>
+	</node>
+	<node>
+		<id><![CDATA[38]]></id>
+		<nom><![CDATA[Paquet]]></nom>
+		<prenom><![CDATA[Ariane]]></prenom>
+		<presentation><![CDATA[<p>J'ai toujours eu un très grand intérêt pour les technologies et le web. J'aime apprendre et faire des veilles technologiques. Le domaine du web est en constante évolution, donc ma soif d'apprendre est comblée dans ce domaine qui me passionne.</p>]]></presentation>
+		<interet_gestion_projet><![CDATA[6]]></interet_gestion_projet>
+		<interet_design_interface><![CDATA[7]]></interet_design_interface>
+		<interet_traitement_medias><![CDATA[8]]></interet_traitement_medias>
+		<interet_integration><![CDATA[10]]></interet_integration>
+		<interet_programmation><![CDATA[7]]></interet_programmation>
+		<courriel><![CDATA[apaquet@hotmail.fr]]></courriel>
+		<pseudo_twitter><![CDATA[]]></pseudo_twitter>
+		<linkedin><![CDATA[]]></linkedin>
+		<site_web><![CDATA[]]></site_web>
+		<nom_usager_admin><![CDATA[1962864]]></nom_usager_admin>
+	</node>
+	<node>
+		<id><![CDATA[39]]></id>
+		<nom><![CDATA[Perrot]]></nom>
+		<prenom><![CDATA[Gabin]]></prenom>
+		<presentation><![CDATA[<p>Passionné par le design web, jai décidé de venir seul au Canada pour y étudier en 2019. Je minvestis beaucoup dans la création audiovisuelle telle que la photo et vidéo. Les stages réalisés au cours de mes formations mont forgé une bonne expérience professionnelle, mais aussi un bon esprit déquipe.</p>]]></presentation>
+		<interet_gestion_projet><![CDATA[8]]></interet_gestion_projet>
+		<interet_design_interface><![CDATA[10]]></interet_design_interface>
+		<interet_traitement_medias><![CDATA[8]]></interet_traitement_medias>
+		<interet_integration><![CDATA[3]]></interet_integration>
+		<interet_programmation><![CDATA[2]]></interet_programmation>
+		<courriel><![CDATA[gabinperrotproduction@gmail.com]]></courriel>
+		<pseudo_twitter><![CDATA[]]></pseudo_twitter>
+		<linkedin><![CDATA[https://www.linkedin.com/in/gabin-perrot-1a6b671a4/]]></linkedin>
+		<site_web><![CDATA[https://gabinperrot.myportfolio.com/work]]></site_web>
+		<nom_usager_admin><![CDATA[1933373]]></nom_usager_admin>
+	</node>
+	<node>
+		<id><![CDATA[40]]></id>
+		<nom><![CDATA[Pouliot]]></nom>
+		<prenom><![CDATA[Louis]]></prenom>
+		<presentation><![CDATA[<p>Grâce à la Technique dintégration multimédia, jai trouvé ce qui me passionne réellement : Le Web. Pour moi, la réalisation de projets multimédias est une façon de mépanouir.</p><p>À chaque projet, l'<strong>intégration</strong> et la <strong>programmation</strong> me permettent de me surpasser et dexplorer de nouvelles technologies qui s'ajoutent à mes connaissances. La programmation <strong>back-end</strong> et <strong>front-end</strong> sont, somme toute, ce que je préfère le plus et ce dans quoi j'excelle.</p><p>Limportant est den apprendre chaque jour, de me garder à laffut des nouvelles technologies et des langages de programmation.</p>]]></presentation>
+		<interet_gestion_projet><![CDATA[8]]></interet_gestion_projet>
+		<interet_design_interface><![CDATA[7]]></interet_design_interface>
+		<interet_traitement_medias><![CDATA[7]]></interet_traitement_medias>
+		<interet_integration><![CDATA[10]]></interet_integration>
+		<interet_programmation><![CDATA[10]]></interet_programmation>
+		<courriel><![CDATA[louis.pouliot@hotmail.ca]]></courriel>
+		<pseudo_twitter><![CDATA[]]></pseudo_twitter>
+		<linkedin><![CDATA[]]></linkedin>
+		<site_web><![CDATA[https://www.louispouliot.ca/]]></site_web>
+		<nom_usager_admin><![CDATA[1436343]]></nom_usager_admin>
+	</node>
+	<node>
+		<id><![CDATA[41]]></id>
+		<nom><![CDATA[Sagnard]]></nom>
+		<prenom><![CDATA[Jonathan]]></prenom>
+		<presentation><![CDATA[<p>Depuis tout jeune je me passionne sur l'avancement des <strong>technologies face à l'utilisateur</strong> , que ce soit sur les sites web , les applications mobiles ou comme les jeux vidéos, je suis en admiration sur  l'immersion des interfaces utilisateurs. J'aime voir les contrastes des couleurs , l'animation des interfaces. Je voudrais retranscrire la simplicité et le plaisir que peut apporter une bonne expérience utilisateur.</p><p>Je suis <strong>calme</strong> et <strong>réfléchi</strong>. Je suis passionné de <strong>design</strong> et de <strong>jeux vidéos</strong>. Je veux à tout prix faire voyager les personnes dans mon monde. À travers mon expérience accumulée en design est les compétences acquises au cours de la TIM.</p>]]></presentation>
+		<interet_gestion_projet><![CDATA[7]]></interet_gestion_projet>
+		<interet_design_interface><![CDATA[10]]></interet_design_interface>
+		<interet_traitement_medias><![CDATA[10]]></interet_traitement_medias>
+		<interet_integration><![CDATA[8]]></interet_integration>
+		<interet_programmation><![CDATA[5]]></interet_programmation>
+		<courriel><![CDATA[sajonathan@gmail.com]]></courriel>
+		<pseudo_twitter><![CDATA[@TNewHope]]></pseudo_twitter>
+		<linkedin><![CDATA[https://www.linkedin.com/in/jonathan-sagnard-0b2a5b15a/]]></linkedin>
+		<site_web><![CDATA[https://jocreat.wixsite.com/jonathansag/portfolio]]></site_web>
+		<nom_usager_admin><![CDATA[1931289]]></nom_usager_admin>
+	</node>
+	<node>
+		<id><![CDATA[42]]></id>
+		<nom><![CDATA[Suslu]]></nom>
+		<prenom><![CDATA[Matéo]]></prenom>
+		<presentation><![CDATA[<p>Passionné de technologie et de multimédia, je m'épanouis dans ce milieu depuis déjà plusieurs années en m'essayant au développement web et à la programmation. Après avoir effectué un <strong>DUT MMI</strong> (Métiers du Multimédia et de l'Internet) où j'ai pu développer cette passion et acquérir de nouvelles compétences me permettant d'évoluer dans un milieu professionnel, jaimerais maintenant me diriger vers les métiers du jeu vidéo et plus précisément celui de <strong><span lang="en">Game Designer</span></strong>.</p>]]></presentation>
+		<interet_gestion_projet><![CDATA[7]]></interet_gestion_projet>
+		<interet_design_interface><![CDATA[7]]></interet_design_interface>
+		<interet_traitement_medias><![CDATA[8]]></interet_traitement_medias>
+		<interet_integration><![CDATA[9]]></interet_integration>
+		<interet_programmation><![CDATA[9]]></interet_programmation>
+		<courriel><![CDATA[mateosuslu.pro@gmail.com]]></courriel>
+		<pseudo_twitter><![CDATA[]]></pseudo_twitter>
+		<linkedin><![CDATA[https://www.linkedin.com/in/mat%C3%A9o-suslu-0867bb1b7/]]></linkedin>
+		<site_web><![CDATA[https://www.mateosuslu.fr/]]></site_web>
+		<nom_usager_admin><![CDATA[2201386]]></nom_usager_admin>
+	</node>
+	<node>
+		<id><![CDATA[43]]></id>
+		<nom><![CDATA[Thibault]]></nom>
+		<prenom><![CDATA[Nicolas]]></prenom>
+		<presentation><![CDATA[<p>Étant un passionné du web, jai toujours aimé le domaine de linformatique, des jeux vidéo et de lélectronique. Le web est un univers qui ne cesse dévoluer année après année, et cest une des raisons pour laquelle ce domaine est fait pour moi. En effet, jadore apprendre, avoir du nouveau à chaque jour et faire face à des défis quotidiennement. Ce domaine peut ouvrir des horizons infinis et cest ce qui me plaît le plus, ne jamais être pris dans une routine professionnelle.</p>]]></presentation>
+		<interet_gestion_projet><![CDATA[3]]></interet_gestion_projet>
+		<interet_design_interface><![CDATA[3]]></interet_design_interface>
+		<interet_traitement_medias><![CDATA[2]]></interet_traitement_medias>
+		<interet_integration><![CDATA[10]]></interet_integration>
+		<interet_programmation><![CDATA[10]]></interet_programmation>
+		<courriel><![CDATA[nicolasthibault@hotmail.ca]]></courriel>
+		<pseudo_twitter><![CDATA[]]></pseudo_twitter>
+		<linkedin><![CDATA[https://www.linkedin.com/in/nicolas-thibault-6652b9194/]]></linkedin>
+		<site_web><![CDATA[]]></site_web>
+		<nom_usager_admin><![CDATA[1635751]]></nom_usager_admin>
+	</node>
+	<node>
+		<id><![CDATA[44]]></id>
+		<nom><![CDATA[Veillette]]></nom>
+		<prenom><![CDATA[Michel]]></prenom>
+		<presentation><![CDATA[<p>La TIM a été pour moi une révélation dans mon choix de carrière. Ce choix de technique ma permis de découvrir un environnement stimulant, divertissant et rempli de possibilités. Mon sens logique, ma capacité dadaptation et ma détermination mont permis de devenir le développeur que je suis aujourdhui.</p><p>Je mintéresse à tout ce qui touche la gestion de projet, lintégration et par-dessus tout, la programmation. Je suis un grand fan de <abbr title="programmation">"prog"</abbr>, aucun bogue nest à ma hauteur. Jaime particulièrement travailler en JavaScript, TypeScript, <abbr title="Hypertext Preprocessor">PHP</abbr>, VueJs, React, et NextJs.</p>
+]]></presentation>
+		<interet_gestion_projet><![CDATA[8]]></interet_gestion_projet>
+		<interet_design_interface><![CDATA[7]]></interet_design_interface>
+		<interet_traitement_medias><![CDATA[7]]></interet_traitement_medias>
+		<interet_integration><![CDATA[9]]></interet_integration>
+		<interet_programmation><![CDATA[10]]></interet_programmation>
+		<courriel><![CDATA[mveillettetr@hotmail.com]]></courriel>
+		<pseudo_twitter><![CDATA[]]></pseudo_twitter>
+		<linkedin><![CDATA[https://www.linkedin.com/in/michel-veillette-9006331a3/]]></linkedin>
+		<site_web><![CDATA[]]></site_web>
+		<nom_usager_admin><![CDATA[1965623]]></nom_usager_admin>
+	</node>
+	<node>
+		<id><![CDATA[45]]></id>
+		<nom><![CDATA[Audet]]></nom>
+		<prenom><![CDATA[Joséphine]]></prenom>
+		<presentation><![CDATA[<p>J'ai développé un grand intérêt pour l'univers du développement web depuis le tout début de mon parcourt dans la TIM. La <strong>conception</strong> est ce qui m'intéresse le plus dans le programme et c'est la branche dans lequel j'ai le plus de facilité. La conception de maquettes <abbr title="User eXperience">UX</abbr> et <abbr title="User Interface">UI</abbr> est mon étape préféré dans processus de développement d'un site web. Je trouve que c'est la partie la plus créative et celle qui fait appel mon petit côté artistique. J'ai aussi appris que la conception web est beaucoup plus que du design et des maquettes, il s'agit aussi d'analyser afin de satisfaire le besoin d'un client. J'ai appris à être créative afin de trouver des solutions et adapter mes concepts afin de répondre aux besoins des clients.</p>]]></presentation>
+		<interet_gestion_projet><![CDATA[7]]></interet_gestion_projet>
+		<interet_design_interface><![CDATA[10]]></interet_design_interface>
+		<interet_traitement_medias><![CDATA[7]]></interet_traitement_medias>
+		<interet_integration><![CDATA[7]]></interet_integration>
+		<interet_programmation><![CDATA[5]]></interet_programmation>
+		<courriel><![CDATA[josephine.audet@gmail.com]]></courriel>
+		<pseudo_twitter><![CDATA[]]></pseudo_twitter>
+		<linkedin><![CDATA[https://www.linkedin.com/in/jos%C3%A9phine-audet/]]></linkedin>
+		<site_web><![CDATA[]]></site_web>
+		<nom_usager_admin><![CDATA[1942787]]></nom_usager_admin>
+	</node>
+	<node>
+		<id><![CDATA[46]]></id>
+		<nom><![CDATA[Bernier Bourdages]]></nom>
+		<prenom><![CDATA[Yves Luc]]></prenom>
+		<presentation><![CDATA[<p>Linformatique et les nouvelles technologies mont toujours passionné. Jadore tout ce qui sapproche de près ou de loin à la programmation et à la résolution de problème logique. La technique dintégration multimédia ma permis de combiner profession et passion dans un domaine, toujours en train dinnover. Il ny a rien de plus palpitant que de voir une page Web prendre vie après quelques lignes de code.</p>
+
+<p>Jai découvert aussi avec en TIM lunivers de lanimation graphique et du montage vidéo. Les projets que jai réalisés mont fait sortir de ma zone de confiance et mont poussé à explorer un domaine que je naurais jamais pensé toucher.</p>]]></presentation>
+		<interet_gestion_projet><![CDATA[7]]></interet_gestion_projet>
+		<interet_design_interface><![CDATA[5]]></interet_design_interface>
+		<interet_traitement_medias><![CDATA[4]]></interet_traitement_medias>
+		<interet_integration><![CDATA[10]]></interet_integration>
+		<interet_programmation><![CDATA[10]]></interet_programmation>
+		<courriel><![CDATA[1961716@csfoy.ca]]></courriel>
+		<pseudo_twitter><![CDATA[TheElectrovs]]></pseudo_twitter>
+		<linkedin><![CDATA[https://www.linkedin.com/in/yves-luc-bourdages-6b31bba3/]]></linkedin>
+		<site_web><![CDATA[]]></site_web>
+		<nom_usager_admin><![CDATA[1961716]]></nom_usager_admin>
+	</node>
+	<node>
+		<id><![CDATA[47]]></id>
+		<nom><![CDATA[Boilard]]></nom>
+		<prenom><![CDATA[Rémi]]></prenom>
+		<presentation><![CDATA[<p>Lors de ma formation en techniques d'intégration multimédia, j'ai su améliorer de multiples compétences. Durant mon parcours, j'ai développé des atouts en programmation, en traitement de médias, en gestion de projet, en design et en intégration. Maintenant je voue une passion au design et a l'intégration.</p><p>Je mintéresse beaucoup à l<strong>expérience utilisateur</strong>. J'aime pouvoir analyser la façon dont les usagers interagissent avec l'interface, cela me donne la possibilité d'améliorer leur expérience et parfaire mes connaissances en utilisabilité. Je recherche toujours une nouvelle manière de présenter l'interface pour permettre à chaque utilisateur une meilleure expérience.</p> ]]></presentation>
+		<interet_gestion_projet><![CDATA[8]]></interet_gestion_projet>
+		<interet_design_interface><![CDATA[8]]></interet_design_interface>
+		<interet_traitement_medias><![CDATA[6]]></interet_traitement_medias>
+		<interet_integration><![CDATA[9]]></interet_integration>
+		<interet_programmation><![CDATA[5]]></interet_programmation>
+		<courriel><![CDATA[remiboilard@hotmail.com]]></courriel>
+		<pseudo_twitter><![CDATA[]]></pseudo_twitter>
+		<linkedin><![CDATA[Rémi Boilard]]></linkedin>
+		<site_web><![CDATA[]]></site_web>
+		<nom_usager_admin><![CDATA[1738437]]></nom_usager_admin>
+	</node>
+	<node>
+		<id><![CDATA[48]]></id>
+		<nom><![CDATA[Bourgault]]></nom>
+		<prenom><![CDATA[Anne-Marie]]></prenom>
+		<presentation><![CDATA[<p>Les technologies me passionnent depuis mon enfance. De plus, jadore développer ma créativité à travers les sites Web. </p><p> Jadore la conception des sites Web, les animations, le design <abbr title=" User Interface ">UI</abbr> et lintégration avec le code <abbr title="Hypertext Markup Language">HTML</abbr> et <abbr title="Cascading Style Sheets">CSS</abbr>. Puis, jaime régler des problèmes dans mon code, dans un site Web ou trouver des solutions avec un client.</p>]]></presentation>
+		<interet_gestion_projet><![CDATA[7]]></interet_gestion_projet>
+		<interet_design_interface><![CDATA[10]]></interet_design_interface>
+		<interet_traitement_medias><![CDATA[9]]></interet_traitement_medias>
+		<interet_integration><![CDATA[8]]></interet_integration>
+		<interet_programmation><![CDATA[7]]></interet_programmation>
+		<courriel><![CDATA[anne-marie@hotmail.com]]></courriel>
+		<pseudo_twitter><![CDATA[]]></pseudo_twitter>
+		<linkedin><![CDATA[]]></linkedin>
+		<site_web><![CDATA[]]></site_web>
+		<nom_usager_admin><![CDATA[1964865]]></nom_usager_admin>
+	</node>
+	<node>
+		<id><![CDATA[49]]></id>
+		<nom><![CDATA[Caron]]></nom>
+		<prenom><![CDATA[Gabriel]]></prenom>
+		<presentation><![CDATA[<p>Je suis passionné du Web depuis mes études en design graphique. Mes forces sont le design et lintégration. Mes études en Techniques dintégration multimédia mont également permis de développer des compétences en expérience utilisateur, laccessibilité pour le Web et en programmation. Durant mes temps libres, je mintéresse aussi au développement dapplications mobiles.</p>]]></presentation>
+		<interet_gestion_projet><![CDATA[6]]></interet_gestion_projet>
+		<interet_design_interface><![CDATA[10]]></interet_design_interface>
+		<interet_traitement_medias><![CDATA[9]]></interet_traitement_medias>
+		<interet_integration><![CDATA[10]]></interet_integration>
+		<interet_programmation><![CDATA[7]]></interet_programmation>
+		<courriel><![CDATA[gabriel.caron@gmail.com]]></courriel>
+		<pseudo_twitter><![CDATA[gabrcaron]]></pseudo_twitter>
+		<linkedin><![CDATA[https://www.linkedin.com/in/gabrielcaron/]]></linkedin>
+		<site_web><![CDATA[https://gabrielcaron.ca]]></site_web>
+		<nom_usager_admin><![CDATA[1861095]]></nom_usager_admin>
+	</node>
+	<node>
+		<id><![CDATA[50]]></id>
+		<nom><![CDATA[Dion]]></nom>
+		<prenom><![CDATA[Alex]]></prenom>
+		<presentation><![CDATA[<p>Jai découvert une passion pour les jeux vidéo à un très jeune âge. Je suis pratiquement né avec une manette dans les mains. Cette passion ma amené à vouloir devenir un <strong>développeur de jeux vidéo</strong>, mais cest à ce moment que jai découvert quelque chose qui mintéressait encore plus que les jeux vidéo</p><p>Jai découvert <strong>la programmation Web</strong>. Depuis cette découverte, jai été grandement passionné de toutes les technologies qui existent et je suis toujours toujours excité den apprendre plus.</p><p>Je suis un individu qui est extrêmement curieux et qui est naturellement transparent et honnête. Jai aussi un esprit de leadership naturel!</p>]]></presentation>
+		<interet_gestion_projet><![CDATA[8]]></interet_gestion_projet>
+		<interet_design_interface><![CDATA[6]]></interet_design_interface>
+		<interet_traitement_medias><![CDATA[5]]></interet_traitement_medias>
+		<interet_integration><![CDATA[10]]></interet_integration>
+		<interet_programmation><![CDATA[10]]></interet_programmation>
+		<courriel><![CDATA[dionalex1999@gmail.com]]></courriel>
+		<pseudo_twitter><![CDATA[]]></pseudo_twitter>
+		<linkedin><![CDATA[]]></linkedin>
+		<site_web><![CDATA[]]></site_web>
+		<nom_usager_admin><![CDATA[1634060]]></nom_usager_admin>
+	</node>
+	<node>
+		<id><![CDATA[51]]></id>
+		<nom><![CDATA[Gilbert]]></nom>
+		<prenom><![CDATA[David]]></prenom>
+		<presentation><![CDATA[<p>Jai étudié dans le domaine informatique pendant huit ans et je peux fièrement dire que jai touché à tout, autant le montage vidéo que la programmation <span lang="en">back-end</span>.</p><p>Jai toujours été créatif et curieux dans toutes les sphères de ma vie. Depuis que je fais du Web jai vraiment pu développer cette créativité en réalisant de nombreux projets chacun plus innovateur que le dernier.</p><p>Jai une facilité dapprentissage pour tout ce qui est les nouvelles technologies et les méthodes de travail, je suis autonome et débrouillard, mais je travaille aussi très bien dans une équipe. Je cherche tout le temps à me surpasser et jaime relever des défis hors de ma zone de confort.</p>
+]]></presentation>
+		<interet_gestion_projet><![CDATA[10]]></interet_gestion_projet>
+		<interet_design_interface><![CDATA[8]]></interet_design_interface>
+		<interet_traitement_medias><![CDATA[4]]></interet_traitement_medias>
+		<interet_integration><![CDATA[7]]></interet_integration>
+		<interet_programmation><![CDATA[10]]></interet_programmation>
+		<courriel><![CDATA[david3593@yahoo.com]]></courriel>
+		<pseudo_twitter><![CDATA[]]></pseudo_twitter>
+		<linkedin><![CDATA[https://www.linkedin.com/in/david-gilbert-32b301194]]></linkedin>
+		<site_web><![CDATA[]]></site_web>
+		<nom_usager_admin><![CDATA[1937631]]></nom_usager_admin>
+	</node>
+	<node>
+		<id><![CDATA[52]]></id>
+		<nom><![CDATA[Hebert]]></nom>
+		<prenom><![CDATA[Pierre-Alexandre]]></prenom>
+		<presentation><![CDATA[<p>Linformatique est un domaine qui mintéresse depuis longtemps. Mon cheminement a commencé lorsque je faisais des photomontages pour le plaisir. Je me suis donc inscrit en techniques dintégration multimédia  web et apps. Cest à ce moment que jai découvert ma passion pour la programmation et lintégration.</p><p>Je suis constamment à la recherche de nouveaux défis et ma persévérance est, selon moi, lun de mes plus grands atouts pour maider à les surmonter.</p>
+]]></presentation>
+		<interet_gestion_projet><![CDATA[7]]></interet_gestion_projet>
+		<interet_design_interface><![CDATA[7]]></interet_design_interface>
+		<interet_traitement_medias><![CDATA[5]]></interet_traitement_medias>
+		<interet_integration><![CDATA[8]]></interet_integration>
+		<interet_programmation><![CDATA[10]]></interet_programmation>
+		<courriel><![CDATA[pierre_10@live.ca]]></courriel>
+		<pseudo_twitter><![CDATA[]]></pseudo_twitter>
+		<linkedin><![CDATA[https://www.linkedin.com/in/pierre-alexandre-h%C3%A9bert-83841a197/]]></linkedin>
+		<site_web><![CDATA[]]></site_web>
+		<nom_usager_admin><![CDATA[1965368]]></nom_usager_admin>
+	</node>
+	<node>
+		<id><![CDATA[53]]></id>
+		<nom><![CDATA[Janelle]]></nom>
+		<prenom><![CDATA[Élodie]]></prenom>
+		<presentation><![CDATA[<p>Je ne savais rien à propos de ce monde jusquà ce que je découvre cette technique et quand je lai découverte, mes yeux se sont ouverts. Jai découvert un monde et des personnes géniales!</p><p>Pendant, ces trois ans, je me suis trouvée un talent pour lintégration et de la programmation <span lang="en" >front-end</span>. Le travail déquipe ne me fait pas peur, jadore partager, recevoir des idées des gens et les aider du mieux que je peux.</p>
+]]></presentation>
+		<interet_gestion_projet><![CDATA[8]]></interet_gestion_projet>
+		<interet_design_interface><![CDATA[7]]></interet_design_interface>
+		<interet_traitement_medias><![CDATA[6]]></interet_traitement_medias>
+		<interet_integration><![CDATA[10]]></interet_integration>
+		<interet_programmation><![CDATA[9]]></interet_programmation>
+		<courriel><![CDATA[elodiej2012@gmail.com]]></courriel>
+		<pseudo_twitter><![CDATA[]]></pseudo_twitter>
+		<linkedin><![CDATA[]]></linkedin>
+		<site_web><![CDATA[]]></site_web>
+		<nom_usager_admin><![CDATA[1935878]]></nom_usager_admin>
+	</node>
+	<node>
+		<id><![CDATA[54]]></id>
+		<nom><![CDATA[Laberge]]></nom>
+		<prenom><![CDATA[David]]></prenom>
+		<presentation><![CDATA[<p>Je suis diplômé en Administration des affaires (profil marketing) de lUniversité Laval </p><p> Jai décidé de minscrire à la TIM pour jumeler ma passion de linformatique au marketing. Mes intérêts touchent tous les aspects du développement Web, mais je me spécialise davantage en <strong>Intégration</strong> et en <strong>Programmation</strong>.</p><p>Jai également un intérêt prononcé pour la <strong> gestion de projet et déquipe</strong>. Mes expériences de travail antérieures mont montré que la gestion est un défi que jaime surmonter.</p>]]></presentation>
+		<interet_gestion_projet><![CDATA[9]]></interet_gestion_projet>
+		<interet_design_interface><![CDATA[6]]></interet_design_interface>
+		<interet_traitement_medias><![CDATA[3]]></interet_traitement_medias>
+		<interet_integration><![CDATA[8]]></interet_integration>
+		<interet_programmation><![CDATA[8]]></interet_programmation>
+		<courriel><![CDATA[david.laberge.2@gmail.com]]></courriel>
+		<pseudo_twitter><![CDATA[]]></pseudo_twitter>
+		<linkedin><![CDATA[https://www.linkedin.com/in/david-laberge-9569a913a/]]></linkedin>
+		<site_web><![CDATA[]]></site_web>
+		<nom_usager_admin><![CDATA[1241257]]></nom_usager_admin>
+	</node>
+	<node>
+		<id><![CDATA[55]]></id>
+		<nom><![CDATA[Larochelle]]></nom>
+		<prenom><![CDATA[Laurent]]></prenom>
+		<presentation><![CDATA[<p>Le web me passionne vraiment depuis que je suis tout petit!</p><p>Quand j'ai entendu parler de la technique d'intégration multimédia, j'ai directement su que cela était fait pour moi !</p><p>Je m'intéresse principalement à l'<strong>intégration</strong> et aux <strong>langage de développement</strong>. En d'autre mots, je suis vraiment passionné par le <strong>front-end</strong> et <strong>back-end!</strong> Le JavaScript et le SQL sont mes forces !</p><p>Le <strong>JavaScript</strong> et le <strong>SQL</strong> sont mes forces ! J'adore explorer de nouvelle technologie, dans ce domaine j'en apprends a touts les jours !</p>]]></presentation>
+		<interet_gestion_projet><![CDATA[6]]></interet_gestion_projet>
+		<interet_design_interface><![CDATA[4]]></interet_design_interface>
+		<interet_traitement_medias><![CDATA[3]]></interet_traitement_medias>
+		<interet_integration><![CDATA[9]]></interet_integration>
+		<interet_programmation><![CDATA[10]]></interet_programmation>
+		<courriel><![CDATA[laurent.larochelle@outlook.com]]></courriel>
+		<pseudo_twitter><![CDATA[]]></pseudo_twitter>
+		<linkedin><![CDATA[https://www.linkedin.com/in/laurent-larochelle-7650b4211/]]></linkedin>
+		<site_web><![CDATA[]]></site_web>
+		<nom_usager_admin><![CDATA[1962781]]></nom_usager_admin>
+	</node>
+	<node>
+		<id><![CDATA[56]]></id>
+		<nom><![CDATA[Lay]]></nom>
+		<prenom><![CDATA[Estelle]]></prenom>
+		<presentation><![CDATA[<p>Je me suis découvert un réel intérêt pour les métiers du web après mon baccalauréat. Cest un domaine d'avenir stimulant qui permet dêtre créatif tout en gardant un aspect technique. L<strong>UX design</strong> et le <strong>développement web</strong> mintéressent particulièrement : le sens de lesthétisme et une bonne maîtrise des technologies sont des qualités essentielles pour développer un bon site web selon moi. De plus, on ne finit jamais dapprendre dans ce domaine : il ny a pas de place pour lennui !</p>]]></presentation>
+		<interet_gestion_projet><![CDATA[7]]></interet_gestion_projet>
+		<interet_design_interface><![CDATA[7]]></interet_design_interface>
+		<interet_traitement_medias><![CDATA[6]]></interet_traitement_medias>
+		<interet_integration><![CDATA[8]]></interet_integration>
+		<interet_programmation><![CDATA[7]]></interet_programmation>
+		<courriel><![CDATA[layestelle7@gmail.com]]></courriel>
+		<pseudo_twitter><![CDATA[]]></pseudo_twitter>
+		<linkedin><![CDATA[https://www.linkedin.com/in/estellelay/]]></linkedin>
+		<site_web><![CDATA[https://www.estellelay.fr]]></site_web>
+		<nom_usager_admin><![CDATA[2201431]]></nom_usager_admin>
+	</node>
+	<node>
+		<id><![CDATA[57]]></id>
+		<nom><![CDATA[Levesque]]></nom>
+		<prenom><![CDATA[Gabrielle]]></prenom>
+		<presentation><![CDATA[<p>Dès mon plus jeune âge, je suis intéressé par les jeux vidéo. Cest avec le temps que je me suis mise à mintéresser au monde du web. Je mépanouis plus particulièrement lorsque je fais du design UI et UX et du traitement de médias. <strong>Persévérante</strong> et <strong>motivée</strong>, je vise la perfection pour chacun de mes projets afin de rendre agréable lexpérience des utilisateurs.</p><p>Jaime tellement faire du design que jai décidé de poursuivre mes études à lUniversité Laval au BAC en design graphique.</p>]]></presentation>
+		<interet_gestion_projet><![CDATA[7]]></interet_gestion_projet>
+		<interet_design_interface><![CDATA[10]]></interet_design_interface>
+		<interet_traitement_medias><![CDATA[8]]></interet_traitement_medias>
+		<interet_integration><![CDATA[6]]></interet_integration>
+		<interet_programmation><![CDATA[3]]></interet_programmation>
+		<courriel><![CDATA[levesqueg97@gmail.com]]></courriel>
+		<pseudo_twitter><![CDATA[]]></pseudo_twitter>
+		<linkedin><![CDATA[]]></linkedin>
+		<site_web><![CDATA[https://gabriellelevesque.myportfolio.com/about]]></site_web>
+		<nom_usager_admin><![CDATA[1842171]]></nom_usager_admin>
+	</node>
+	<node>
+		<id><![CDATA[58]]></id>
+		<nom><![CDATA[Plebani]]></nom>
+		<prenom><![CDATA[Clara]]></prenom>
+		<presentation><![CDATA[<p>Quoi de mieux pour communiquer que le design ? Il impacte notre quotidien, il nous touche sur notre téléphone, dans la rue, dans les lieux publics, etc. Laspect esthétique se retrouve partout sur le monde et je veux en faire partie. Ce qui manime dans un projet cest tout le mécanisme de développement. Ça prend aux tripes !</p><p>Les différentes étapes du processus de conception me passionnent comme le <strong>remue-méninge</strong>, <strong>lexpérience utilisateur</strong>, <strong>la réalisation</strong>, <strong>lintégration</strong> et la publication. Cest une chance de voir sa création prendre forme puis de paraitre au monde entier !</p>]]></presentation>
+		<interet_gestion_projet><![CDATA[10]]></interet_gestion_projet>
+		<interet_design_interface><![CDATA[10]]></interet_design_interface>
+		<interet_traitement_medias><![CDATA[7]]></interet_traitement_medias>
+		<interet_integration><![CDATA[7]]></interet_integration>
+		<interet_programmation><![CDATA[1]]></interet_programmation>
+		<courriel><![CDATA[plebanipro@hotmail.com]]></courriel>
+		<pseudo_twitter><![CDATA[]]></pseudo_twitter>
+		<linkedin><![CDATA[https://www.linkedin.com/in/clara-plébani-380b81144/]]></linkedin>
+		<site_web><![CDATA[https://plebanipro.wixsite.com/clarapbn]]></site_web>
+		<nom_usager_admin><![CDATA[1931290]]></nom_usager_admin>
+	</node>
+</data>
