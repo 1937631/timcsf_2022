@@ -1963,11 +1963,14 @@ body {
   }
 }
 .page__projets .listeProjets .li__projet:hover {
-  border-radius: 20px;
+  border-radius: 8px 8px 20px 20px;
   box-shadow: dimgrey 5px 5px 10px;
 }
 .page__projets .listeProjets .li__projet:hover img {
-  border-radius: 20px;
+  filter: brightness(30%);
+}
+.page__projets .listeProjets .li__projet:hover h3 {
+  display: block;
 }
 .page__projets .listeProjets .li__projet:nth-child(even) {
   background-color: #2B5BA1;
@@ -1998,10 +2001,11 @@ body {
   padding-inline-start: 0;
 }
 .page__projets .listeProjets .li__projet ul li {
-  width: 50%;
   display: inline-block;
+  width: 50%;
   padding-bottom: 20px;
   padding-top: 10px;
+  transition: 0.5s;
 }
 .page__projets .listeProjets .li__projet ul li:first-of-type {
   padding-left: 20px;
@@ -2016,6 +2020,14 @@ body {
   width: 100%;
   border-radius: 8px;
   transition: 0.2s;
+  position: relative;
+}
+.page__projets .listeProjets .li__projet ul h3 {
+  font-size: 2em;
+  color: white;
+  display: none;
+  position: absolute;
+  transform: translate(25%, -300%);
 }
 .page__projets .navigation__page {
   display: flex;
@@ -2029,6 +2041,90 @@ body {
 }
 .page__projets .navigation__page a:hover {
   filter: brightness(200%);
+}
+
+.page__projet .conteneur__projet {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.page__projet .conteneur__visionneuse {
+  width: 45%;
+}
+.page__projet .column {
+  float: left;
+  width: 33%;
+  padding: 10px;
+}
+.page__projet .column img {
+  opacity: 0.8;
+  cursor: pointer;
+  width: 100%;
+}
+.page__projet .column img:hover {
+  opacity: 1;
+}
+.page__projet .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.page__projet .container {
+  position: relative;
+}
+.page__projet #imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+.page__projet .texte__projet {
+  width: 50%;
+}
+.page__projet .conteneur__finissant {
+  display: flex;
+  flex-wrap: wrap;
+}
+.page__projet .conteneur__finissant img {
+  border: 2px solid #2B5BA1;
+  box-shadow: #2B5BA1 -10px 10px 0;
+  width: 50%;
+  transition: 0.3s;
+}
+.page__projet .conteneur__finissant img:hover {
+  box-shadow: none;
+}
+.page__projet .conteneur__finissant div {
+  border: 2px solid #2B5BA1;
+  width: 50%;
+  padding: 10px;
+}
+.page__projet .conteneur__finissant div a {
+  float: right;
+  padding: 10px 50px;
+  text-align: center;
+  background-color: #2B5BA1;
+  border-radius: 10px;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s;
+  border: 2px solid white;
+}
+.page__projet .conteneur__finissant div a:hover, .page__projet .conteneur__finissant div a:active {
+  background-color: white;
+  border: 2px solid #2B5BA1;
+  color: #2B5BA1;
+}
+.page__projet .conteneur__finissant div a:active {
+  text-decoration: underline;
+}
+.page__projet .navigation__basDePage {
+  margin: 50px 0 50px 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 /** Typographie **/

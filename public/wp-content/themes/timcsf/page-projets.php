@@ -102,7 +102,7 @@ if($the_query->have_posts()){ ?>
 
 
                             <img src="<?php echo get_template_directory_uri();?>../../../uploads/2022/02/prj<?php echo get_field('id'); ?>_01.jpg" alt="imageProjet">
-
+                            <h3>En savoir plus...</h3>
 
 
                     </a>

@@ -141,4 +141,3 @@ if(document.getElementById("separateur") !== null){
         document.getElementById("separateur").src = "../wp-content/uploads/2022/02/separateurTable.png";
     }
 }
-

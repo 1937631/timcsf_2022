@@ -174,10 +174,13 @@
       }
 
       &:hover{
-        border-radius: 20px;
+        border-radius: 8px 8px 20px 20px ;
         box-shadow: dimgrey 5px 5px 10px;
         img{
-          border-radius: 20px;
+          filter: brightness(30%);
+        }
+        h3{
+          display: block;
         }
       }
       &:nth-child(even){
@@ -207,14 +210,16 @@
 
       }
       ul{
+
         list-style: none;
         padding-inline-start: 0;
         li{
+          display: inline-block;
           width: 50%;
-        display: inline-block;
+
           padding-bottom: 20px;
           padding-top: 10px;
-
+          transition: 0.5s;
           &:first-of-type{
             padding-left: 20px;
           }
@@ -229,6 +234,14 @@
           width: 100%;
           border-radius: 8px;
           transition: 0.2s;
+          position: relative;
+        }
+        h3{
+          font-size: 2em;
+          color: white;
+          display: none;
+          position: absolute;
+          transform: translate(25%, -300%);
         }
       }
     }
