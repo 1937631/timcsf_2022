@@ -51,39 +51,42 @@ $postEnVedette = get_post(712);
         <div class="entetePage">
             <h2><?php the_title(); ?></h2>
         </div>
-        <div>
-            <div></div>
-            <div>
+        <div class="envedette">
+            <div class="envedette__couleur1"></div>
+            <div class="envedette__contenu">
                 <p>En vedette!</p>
-                <img style="width: 50%" alt="imageDuProjetEnVedette" src="<?php echo get_template_directory_uri();?>../../../uploads/2022/02/prj<?php echo get_field('id', $postEnVedette); ?>_01.jpg">
-                <a><?php echo $postEnVedette->post_title ?></a>
+                <img alt="imageDuProjetEnVedette" src="<?php echo get_template_directory_uri();?>../../../uploads/2022/02/prj<?php echo get_field('id', $postEnVedette); ?>_01.jpg">
+                <a class="envedette__contenu--lienProjet" href="<?php echo get_the_permalink($postEnVedette); ?>"><?php echo $postEnVedette->post_title ?></a>
                 <?php for($cpt=0;$cpt<count($arrFinissants);$cpt++){
 
                         if(get_field("diplome_id",$postEnVedette)==get_field("id",$arrFinissants[$cpt]->ID)){
                         ?>
-                            <a href="<?php echo get_the_permalink($arrFinissants[$cpt]->ID) ?>">
+                            <a class="envedette__contenu--lienFinissant" href="<?php echo get_the_permalink($arrFinissants[$cpt]->ID) ?>">
                             <?php echo get_field("prenom", $arrFinissants[$cpt]->ID)?>
                             <?php echo get_field("nom", $arrFinissants[$cpt]->ID)?>
                             </a>
                         <?php }
                 } ?>
             </div>
-            <div></div>
+            <div class="envedette__couleur2"></div>
         </div>
-        <form action="" method="post">
-            <button name="programmation">Programmation</button>
-            <button name="design">Design</button>
-            <button name="integration">Intégration</button>
-            <button name="autres">Autres</button>
-        </form>
-        <form action="" method="post">
-            <label for="annee">Filtrez par année</label>
-            <select id="annee" name="annee">
-                <option value="1">Première année</option>
-                <option value="2">Deuxième année</option>
-                <option value="3">Troisième année</option>
-            </select>
-        </form>
+        <div class="filtrage">
+            <form class="boutons" action="" method="post">
+                <button name="programmation">Programmation</button>
+                <button name="design">Design</button>
+                <button name="integration">Intégration</button>
+                <button name="autres">Autres</button>
+            </form>
+            <form  class="triage" action="" method="post">
+                <label for="annee">Filtrez par année</label>
+                <select id="annee" name="annee">
+                    <option value="1">Première année</option>
+                    <option value="2">Deuxième année</option>
+                    <option value="3">Troisième année</option>
+                </select>
+            </form>
+        </div>
+
 <?php
 if($the_query->have_posts()){ ?>
     <ul class="listeProjets">
@@ -92,30 +95,35 @@ if($the_query->have_posts()){ ?>
 
             ?>
             <li class="li__projet">
-                <a href="<?php echo get_permalink(get_the_ID());?>">
+
                 <ul>
-                    <li><?php echo get_field("titre");?></li>
-                    <li><?php echo get_field("diplome_id");?></li>
+                    <a href="<?php echo get_permalink(get_the_ID());?>">
+
+
+
+                            <img src="<?php echo get_template_directory_uri();?>../../../uploads/2022/02/prj<?php echo get_field('id'); ?>_01.jpg" alt="imageProjet">
+
+
+
+                    </a>
+                    <li><a href="<?php echo get_permalink(get_the_ID());?>"><?php echo get_field("titre");?></a></li>
+                    <li>
                     <?php
                     for($cpt=0;$cpt<count($arrFinissants);$cpt++){
                         if(get_field("diplome_id")==get_field("id",$arrFinissants[$cpt]->ID)){
                             ?>
+
                                 <a href="<?php echo get_the_permalink($arrFinissants[$cpt]->ID) ?>">
                                     <?php echo get_field("prenom", $arrFinissants[$cpt]->ID)?>
                                     <?php echo get_field("nom", $arrFinissants[$cpt]->ID)?>
                                 </a>
-                            <p>
-                                <picture>
-                                    <source media="(min-width: 800px)" srcset="<?php echo get_template_directory_uri();?>../../../uploads/2022/02/prj<?php echo get_field('id'); ?>_01.jpg">
-                                    <img style="width: 20%;" src="<?php echo get_template_directory_uri();?>../../../uploads/2022/02/prj<?php echo get_field('id'); ?>_01.jpg" alt="imageProjet">
-                                </picture>
 
-                            </p>
                         <?php }
                     }
                     ?>
+                    </li>
                 </ul>
-                </a>
+
             </li>
 
 
@@ -126,7 +134,7 @@ if($the_query->have_posts()){ ?>
     <?php
 }
 ?>
-<p>
+<p class="navigation__page">
     <?php
     $lien = get_template_directory_uri()."/liaisons/images/picto-precedent.png";
     echo get_previous_posts_link('<img src='. $lien . ' width=20>');
