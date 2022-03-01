@@ -20,7 +20,7 @@
     <small>Conception et développement par David Gilbert</small></br>
     <small>Tous droits réservés 2022 © Techniques d'intégration multimédia - Web et Apps, Cégep de Sainte-Foy</small>
     </br>
-    <img class="logoCegep" src="../wp-content/uploads/2022/02/logo_cegep.png" alt="logoCegep">
+    <img class="logoCegep" src="<?php echo get_template_directory_uri(); ?>/liaisons/images/logo_cegep.png" alt="logoCegep">
     </div>
 </footer>
 <script src="<?php echo get_template_directory_uri();?>/liaisons/javascript/script.js"></script>

@@ -38,6 +38,9 @@ wp_reset_postdata();
     $arrRandom = array();
     for($cptRand = 0; $cptRand < 4; $cptRand++){
         $random = rand(1, 83);
+        if($random == 78 || $random == 6 || $random == 11 || $random == 12 || $random == 26 || $random == 53 || $random == 70){
+            $random = rand(1,83);
+        }
         array_push($arrRandom, $random);
     }
     ?>

@@ -1,0 +1,40 @@
+.page__404{
+  div{
+    position: absolute;
+    z-index: 2;
+    @media (max-width: 600px){
+      margin: 0 20px 20px 20px;
+    }
+  }
+  h2{
+    text-transform: none;
+    font-size: 48px;
+    @media (max-width: 600px){
+      font-size: 36px;
+    }
+  }
+  h3{
+    font-size: 48px;
+    @media (max-width: 600px){
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+  }
+  p{
+    padding: 0;
+    margin: 0;
+    color: #e4e4e4;
+    font-size: 255px;
+    font-weight: bold;
+    float:right;
+    position: relative;
+    transform: translate(-85%, -15%);
+
+    z-index: 1;
+    @media (max-width: 600px){
+      font-size: 155px;
+      margin-bottom: 50px;
+      transform: translate(0, 0);
+    }
+  }
+}

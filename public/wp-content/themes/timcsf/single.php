@@ -54,10 +54,12 @@ function clean($string) {
                     <!-- Expanded image -->
                     <img src="<?php echo get_template_directory_uri();?>../../../uploads/2022/02/prj<?php the_field('id'); ?>_01.jpg" id="expandedImg" style="width:100%">
                 </div>
+
                 <div class="row" id="visionneuseImagesProjet">
                     <div class="column">
                         <img src="<?php echo get_template_directory_uri();?>../../../uploads/2022/02/prj<?php the_field('id'); ?>_01.jpg" alt="Image 1" onclick="myFunction(this);">
                     </div>
+
                     <div class="column">
                         <img src="<?php echo get_template_directory_uri();?>../../../uploads/2022/02/prj<?php the_field('id'); ?>_02.jpg" alt="Image 2" onclick="myFunction(this);">
                     </div>
@@ -82,7 +84,7 @@ function clean($string) {
                 </ul>
                 <?php if(get_field('url') !== "") { ?>
                         <h3>Retrouvez le projet ici:</h3>
-                        <a href="<?php the_field('url');?>">Lien vers le projet</a>
+                        <a class="lienProjet" href="<?php the_field('url');?>"><?php the_title() ?></a>
                 <?php } ?>
                 <h3>Projet réalisé par:</h3>
                 <?php for($cpt=0;$cpt<count($arrFinissants);$cpt++){
@@ -92,7 +94,7 @@ function clean($string) {
                         $nomReformate = clean($nomComplet);
                         ?>
                             <div class="conteneur__finissant">
-                                <img style="width: 25%;" src="<?php echo get_template_directory_uri();?>../../../uploads/2022/02/<?php echo $nomReformate; ?>_1.jpg" alt="imageFinissant">
+                                <img src="<?php echo get_template_directory_uri();?>../../../uploads/2022/02/<?php echo $nomReformate; ?>_1.jpg" alt="imageFinissant">
                                 <div>
                                 <?php echo get_field("prenom", $arrFinissants[$cpt]->ID)?>
                                 <?php echo get_field("nom", $arrFinissants[$cpt]->ID)?>

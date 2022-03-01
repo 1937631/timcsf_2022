@@ -92,8 +92,27 @@ if($the_query->have_posts()){ ?>
     <ul class="listeProjets">
         <?php while($the_query->have_posts()) {
             $the_query->the_post();
+            $string = get_field("technologies");
+            if(isset($_POST["programmation"])){
+                $terme = "Javascript";
+
+            }
+            else if(isset($_POST["design"])){
+                $terme = "Figma";
+            }
+            else if(isset($_POST["integration"])){
+                $terme = "HTML";
+            }
+            else if(isset($_POST["autres"])){
+                $terme = "Ajax";
+            }
+            else{
+
+            $nonFiltre = true;
+            }
 
             ?>
+                <?php if(strpos($string, $terme) !== false || $nonFiltre == true){ ?>
             <li class="li__projet">
 
                 <ul>
@@ -129,6 +148,7 @@ if($the_query->have_posts()){ ?>
 
 
         <?php }
+        }
         ?>
     </ul>
     <?php

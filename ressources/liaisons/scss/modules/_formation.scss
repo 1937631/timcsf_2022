@@ -124,7 +124,22 @@
         padding: 10px;
         border: 2px solid #2B5BA1;
         margin-top: 10px;
-
+        transition: 0.2s;
+        &:hover{
+          background-color: #2B5BA1;
+          color: white;
+        }
+        p{
+          visibility: hidden;
+          height: 0;
+          transition: 0.4s;
+        }
+        .visible{
+          visibility: visible;
+          height: auto;
+          padding: 20px 10px 10px 10px;
+          transition:0.4s;
+        }
       }
     }
 
@@ -133,6 +148,7 @@
      display: none;
   }
   .contenuPrincipal{
+    margin-top: 20px;
     @media (min-width: 600px){
       display: inline-block;
       width: 50%;

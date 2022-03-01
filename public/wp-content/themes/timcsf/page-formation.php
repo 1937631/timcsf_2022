@@ -97,6 +97,28 @@ function clean($string) {
             }
             chart.draw(data, options);
         }
+        function toggleVisible(num){
+            let arr4 = ["1","2","3","4"];
+            arr4.splice((num - 1), 1);
+            console.log(arr4);
+            for(let cpt = 0; cpt<arr4.length; cpt++){
+                document.getElementById("profession" + arr4[cpt]).classList.remove("visible");
+                document.getElementById("profession" + arr4[cpt]).classList.remove("animate__fadeInDown");
+                document.getElementById("profession" + arr4[cpt]).classList.add("animate__fadeOutUp");
+            }
+            if(document.getElementById("profession" + num).classList.contains("visible") === false){
+                document.getElementById("profession" + num).classList.add("visible");
+                document.getElementById("profession" + num).classList.remove("animate__fadeOutUp");
+                document.getElementById("profession" + num).classList.add("animate__fadeInDown");
+            }
+            else{
+                document.getElementById("profession" + num).classList.remove("visible");
+                document.getElementById("profession" + num).classList.add("animate__fadeOutUp");
+                document.getElementById("profession" + num).classList.remove("animate__fadeInDown");
+            }
+
+
+        }
     </script>
     <?php the_post(); ?>
     <div class="entetePage">
@@ -126,7 +148,26 @@ function clean($string) {
                 <?php echo $typesEmployeurs->post_content; ?>
             </div>
             <h3>Emplois possibles:</h3>
-            <div class="listeEmplois"><?php echo $titresEmplois->post_content; ?></div>
+            <div  class="listeEmplois">
+                <ul>
+                    <li onclick="toggleVisible(1)">
+                        <?php echo str_replace("Profession - ", "", $profession1->post_title); ?>
+                        <p id="profession1" class="animate__animated animate__fadeInDown"><?php echo $profession1->post_content; ?></p>
+                    </li>
+                    <li onclick="toggleVisible(2)">
+                        <?php echo str_replace("Profession - ", "", $profession2->post_title); ?>
+                        <p id="profession2" class="animate__animated animate__fadeInDown"><?php echo $profession2->post_content; ?></p>
+                    </li>
+                    <li onclick="toggleVisible(3)">
+                        <?php echo str_replace("Profession - ", "", $profession3->post_title); ?>
+                        <p id="profession3" class="animate__animated animate__fadeInDown"><?php echo $profession3->post_content; ?></p>
+                    </li>
+                    <li onclick="toggleVisible(4)">
+                        <?php echo str_replace("Profession - ", "", $profession4->post_title); ?>
+                        <p id="profession4" class="animate__animated animate__fadeInDown"><?php echo $profession4->post_content; ?></p>
+                    </li>
+                </ul>
+            </div>
         </div>
 
     </div>
@@ -135,20 +176,7 @@ function clean($string) {
 
 
 
-    <ul class="listeEmploisInfos">
-      <li class="cache">
-        <?php echo $profession1->post_content; ?>
-      </li>
-        <li class="cache">
-            <?php echo $profession2->post_content; ?>
-        </li>
-        <li class="cache">
-            <?php echo $profession3->post_content; ?>
-        </li>
-        <li class="cache">
-            <?php echo $profession4->post_content; ?>
-        </li class="cache">
-    </ul>
+
     <div class="contenuPrincipal">
 
         <?php the_content(); ?>

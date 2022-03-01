@@ -1,4 +1,12 @@
 .page__projet{
+  h2 {
+    text-transform: none;
+    font-size: 2em;
+    @media (max-width: 600px) {
+
+      margin: 20px 20px;
+    }
+  }
   .conteneur__projet{
     display: flex;
     flex-wrap: wrap;
@@ -6,6 +14,10 @@
   }
   .conteneur__visionneuse{
     width: 45%;
+    @media(max-width: 600px){
+      margin: 0 20px;
+      width: 100%;
+    }
   }
   .column{
     float: left;
@@ -38,15 +50,40 @@
   }
   .texte__projet{
     width: 50%;
+    @media(max-width: 600px){
+      margin: 0 20px;
+      width: 100%;
+    }
+    .lienProjet{
+      color: #2B5BA1;
+      border: 2px solid #2B5BA1;
+      text-decoration: none;
+      padding: 5px;
+      transition: 0.4s cubic-bezier(.47, .1, 1, .63);
+
+      &:hover{
+        background-color: #2B5BA1;
+        color: white;
+      }
+    }
   }
   .conteneur__finissant{
     display: flex;
     flex-wrap: wrap;
+    @media (max-width: 600px){
+     width: 100%;
+      height: 250px;
+    }
     img{
       border: 2px solid #2B5BA1;
       box-shadow: #2B5BA1 -10px 10px 0;
-      width: 50%;
+      width: 25%;
       transition: 0.3s;
+      @media (max-width: 600px){
+        width: 40%;
+        object-fit: cover;
+        height: inherit;
+      }
       &:hover{
         box-shadow: none;
       }
@@ -55,7 +92,11 @@
       border: 2px solid #2B5BA1;
       width: 50%;
       padding: 10px;
-
+      @media (max-width: 600px){
+        width: 60%;
+        font-size: 0.8em;
+        height: inherit;
+      }
       a{
         float: right;
         padding: 10px 50px;
@@ -67,6 +108,9 @@
         text-decoration: none;
         transition: 0.3s;
         border: 2px solid white;
+        @media (max-width: 600px){
+          padding: 10px 20px;
+        }
         &:hover, &:active{
           background-color: white;
           border: 2px solid #2B5BA1;
@@ -82,6 +126,151 @@
     margin: 50px 0 50px 0;
     display: flex;
     justify-content: space-between;
+    @media (max-width: 600px){
+      margin: 50px 20px;
+    }
   }
 
+}
+
+.page__finissant{
+  h2{
+    text-transform: none;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .conteneur__single--finissant{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 60px;
+  }
+  img{
+    width: 25%;
+    object-fit: cover;
+  }
+  .texte__finissant{
+    width: 70%;
+    h3{
+      margin-top: 0;
+    }
+
+  }
+  .listeInterets{
+    list-style: none;
+    padding-inline-start: 0;
+    li{
+      div {
+        height: 30px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        width: 100%;
+        h3 {
+          height: 30px;
+          backdrop-filter: opacity(50%);
+          transition: 0.7s;
+          width: fit-content;
+          line-height: 30px;
+          color: white;
+          border-radius: 20px;
+        }
+        .pour1{
+          padding: 0 20px 0 5%;
+        }
+        .pour2{
+          padding: 0 20px 0 10%;
+        }
+        .pour3{
+          padding: 0 20px 0 15%;
+        }
+        .pour4{
+          padding: 0 20px 0 30%;
+        }
+        .pour5{
+          padding: 0 20px 0 35%;
+        }
+        .pour6{
+          padding: 0 20px 0 40%;
+        }
+        .pour7{
+          padding: 0 20px 0 45%;
+        }
+        .pour8{
+          padding: 0 20px 0 50%;
+        }
+        .pour9{
+          padding: 0 20px 0 55%;
+        }
+        .pour10{
+          padding: 0 20px 0 60%;
+        }
+      }
+      &:nth-of-type(1){
+        div{
+          background-color: #B8CAE4;
+          h3{
+            background-color: #2B5BA1;
+          }
+        }
+
+      }
+      &:nth-of-type(2){
+        div{
+          background-color: #E5C1C1;
+          h3{
+            background-color: #BB3E3E;
+          }
+        }
+      }
+      &:nth-of-type(3){
+        div{
+          background-color: #D7D7D7;
+          h3{
+            background-color: black;
+          }
+        }
+      }
+      &:nth-of-type(4){
+        div{
+          background-color: #E0CCF0;
+          h3{
+            color: black;
+            background-color: #A388B8;
+          }
+        }
+      }
+      &:nth-of-type(5){
+        div{
+          background-color: #FFE7AB;
+          h3{
+            color: black;
+            background-color: #FFB800;
+          }
+        }
+      }
+    }
+
+  }
+  .lienBouton{
+    border: 2px solid #2B5BA1;
+    padding: 5px 10px;
+    box-shadow: #2B5BA1 -5px 5px 0;
+    color: #2B5BA1;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+    &:hover{
+      box-shadow: none;
+      background-color: #2B5BA1;
+      color: white;
+    }
+  }
+  .navigation__basDePage{
+    margin: 50px 0 50px 0;
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 600px){
+      margin: 50px 20px;
+    }
+  }
 }
