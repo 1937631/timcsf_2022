@@ -1,0 +1,86 @@
+.page__stages{
+  h2{
+    font-size: 2em;
+    text-transform: none;
+    @media (max-width: 600px){
+      margin-left: 20px;
+    }
+  }
+  .container__stages{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    @media(max-width: 600px){
+      flex-direction: column;
+      margin: 0 20px 60px 20px;
+    }
+    h3{
+      font-size: 1.5em;
+    }
+    .container__etudiants{
+      width: 48%;
+      background-color: #2B5BA1;
+      color: white;
+      padding: 10px 20px 20px 20px;
+      height: fit-content;
+      box-shadow: #D7D7D7 -15px 15px 0;
+      @media(max-width: 600px){
+        width: 100%;
+        margin-bottom: 50px;
+      }
+      p{
+        margin-bottom: 20px;
+      }
+      .boutonPascal{
+          border: 2px solid #D7D7D7;
+          padding: 5px 10px 5px 10px;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 1.2em;
+        transition: 0.2s;
+        &:hover{
+          background-color: #D7D7D7;
+          color: #2B5BA1;
+        }
+      }
+      a{
+        color: #D7D7D7;
+        text-decoration: none;
+        &:hover{
+          text-decoration: underline;
+        }
+
+      }
+    }
+    .container__employeurs{
+      width: 48%;
+      background-color: #D7D7D7;
+      padding: 10px 20px 20px 20px;
+      box-shadow: #2B5BA1 -15px 15px 0;
+      @media(max-width: 600px){
+        width: 100%;
+      }
+      ul{
+        list-style: none;
+        padding-inline-start: 0;
+        li{
+          padding: 4px 10px;
+        }
+        li:nth-child(1), li:nth-child(2){
+          border: #2B5BA1 solid 2px;
+
+          margin-bottom: 20px;
+        }
+        a{
+          color: #2B5BA1;
+          text-decoration: none;
+
+          &:hover{
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}

@@ -138,19 +138,34 @@
     text-transform: none;
     font-size: 32px;
     font-weight: bold;
+    @media (max-width: 600px){
+      margin-left: 20px;
+    }
   }
   .conteneur__single--finissant{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 60px;
+    @media (max-width: 600px){
+      flex-direction: column;
+      margin: 0 20px 60px 20px;
+      align-items: center;
+    }
   }
   img{
     width: 25%;
     object-fit: cover;
+    @media (max-width: 600px){
+      width: 80%;
+    }
   }
   .texte__finissant{
     width: 70%;
+    @media(max-width: 600px){
+      width: 100%;
+      margin-top: 20px;
+    }
     h3{
       margin-top: 0;
     }
@@ -173,6 +188,9 @@
           line-height: 30px;
           color: white;
           border-radius: 20px;
+          @media (max-width: 600px) {
+            font-size: 16px;
+          }
         }
         .pour1{
           padding: 0 20px 0 5%;
@@ -259,6 +277,7 @@
     text-decoration: none;
     font-weight: 500;
     transition: 0.3s;
+    margin-right: 20px;
     &:hover{
       box-shadow: none;
       background-color: #2B5BA1;
