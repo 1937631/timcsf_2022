@@ -4,7 +4,7 @@
 
 get_header();
 
-echo "page-projets.php";
+
 if(get_query_var('paged')){
     $paged = get_query_var('paged');
 }

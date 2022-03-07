@@ -4,7 +4,7 @@
 //**************************************************
 
 get_header();
-echo "page-joindre.php";
+
 //Requête pour obtenir les infos des responsables
 $args = array(
     'post_type' => 'responsables',
@@ -23,7 +23,9 @@ else{
 }
 
 $the_query = new WP_Query( $args );
-
+if(isset($_POST["g-recaptcha-response"])){
+    $captcha = $_POST["g-recaptcha-response"];
+}
 if(isset($_POST['Submit'])){
     $arrValidation = array();
     $responsable = trim($_POST['responsable']);
@@ -70,13 +72,34 @@ if(isset($_POST['Submit'])){
             $allValide = false;
             break;
         }
-        echo $allValide ? "true" : "false";
     }
     if($allValide == true){
         unset($arrValidation);
         $messageConfirmation = "Courriel envoyé avec succès!";
     }
 
+}
+if($captcha != false){
+    if($allValide == true){
+        $secretKey="6Ld2xZAUAAAAAKTP2SAEIyikTTN2uzxmgcNRaiLv";
+        $ip=$_SERVER["REMOTE_ADDR"];
+        $response=file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=" . $secretKey . "&response=" . $captcha . "&remoteip=.$ip");
+        $responseKeys = json_decode($response, true);
+        if(intval($responseKeys["success"])===1){
+            $post=get_post($destinataire);
+            $to = get_option('admin_email');
+            $subject = "Quelqu'un a envoyé un message depuis le site " . get_bloginfo('name');
+            $headers = 'From: ' . $courriel . "\r\n" . 'Reply-to: ' . $courriel . "\r\n";
+
+            $envoi = wp_mail($to, $subject, strip_tags($message), $headers);
+            if($envoi){
+                $messageConfirmation = "Courriel envoyé avec succès!";
+            }
+            else{
+                $messageConfirmation = "Erreur dans la validation du captcha";
+            }
+        }
+    }
 }
 
 function verifierChamp($nomChamp, $valeur, $regex): array
@@ -242,10 +265,13 @@ if($the_query->have_posts()){ ?>
         <label for="message">Message*:</label>
         <textarea name="message" id="message"><?php if (isset($arrValidation)){ echo $message; }?></textarea >
         <p id="messageMessage" class="messageErreur"><?php if(isset($arrValidation)){ echo $arrValidation[4][2]; }?></p>
+        <div class="g-recaptcha" data-sitekey="6Ld2xZAUAAAAAJ2AKX2HBkO1X3vSb6vuQ4ireXAK"></div>
+        <p id="captchaMessage" class="messageErreur"></p>
     </fieldset>
     <p class="messageSucces"><?php if(isset($messageConfirmation)){ echo $messageConfirmation; } ?></p>
     <button disabled type="submit" name="Submit" value="Submit" id="boutonSubmit">Envoyer</button>
     
 </form>
 </main>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <?php get_footer(); ?>

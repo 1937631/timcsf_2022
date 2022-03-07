@@ -1,5 +1,4 @@
 <?php get_header();
-echo "index.php";
 
 $argsProjets = array(
     'post_type' => 'projets',

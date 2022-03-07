@@ -3,7 +3,7 @@
 /*Template name: Stages*/
 
 get_header();
-echo "page-stages.php";
+
 
 $stages = get_post(61);
 

@@ -9,6 +9,7 @@
         | <?php wp_title("", true);
         } ?>
     </title>
+    <link rel="shortcut icon" type="image/png" href="<?php echo get_template_directory_uri();?>../../../uploads/2022/03/logoTim_w32.png"/>
     <meta charset="<?php bloginfo('charset')?>"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/liaisons/css/styles.css"/>
@@ -39,8 +40,8 @@
 </head>
 <body>
 <header class="entete">
-    <img class="logo" src="http://localhost/timcsf_2022/public/wp-content/uploads/2022/02/logoTim.png" alt="logo_tim">
-    <img class="menu__hamburger" src="http://localhost/timcsf_2022/public/wp-content/uploads/2022/02/menuBurger.png" alt="menu_hamburger" onclick="menuBurger()">
+    <img class="logo" src="<?php echo get_template_directory_uri();?>../../../uploads/2022/02/logoTim.png" alt="logo_tim">
+    <img class="menu__hamburger" src="<?php echo get_template_directory_uri();?>../../../uploads/2022/02/menuBurger.png" alt="menu_hamburger" onclick="menuBurger()">
     <div>
         <img src="<?php echo get_template_directory_uri();?>/liaisons/images/_MG_8408.jpg" alt="banniere">
         <div class="ligneRouge"></div>

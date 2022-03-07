@@ -24,7 +24,7 @@
     }
   }
   .listeProgrammes{
-    margin: 0 20px 0 20px;
+    margin: 0 20px 40px 20px;
     list-style: none;
     padding-inline-start: 0;
     @media(min-width: 600px){
@@ -155,6 +155,7 @@
     }
   }
   .imagePictogramme{
+    margin: 20px 20px 0 20px;
     @media (min-width: 600px) {
       display: inline-block;
       float: right;
@@ -254,7 +255,7 @@
   .grilleCours{
     background-color: #C4C4C4;
     padding: 20px 20px 30px 20px;
-    margin: 0 20px 40px 20px;
+    margin: 20px 20px 40px 20px;
     box-shadow: #2B5BA1 -10px 10px 0px;
     @media(min-width: 600px){
       margin-top: 40px;

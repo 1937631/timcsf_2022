@@ -3,7 +3,7 @@
 /*Template name: Formation*/
 
 get_header();
-echo "page-formation.php";
+
 ?>
 <?php
 $uqat = get_post(83);
@@ -216,7 +216,7 @@ function clean($string) {
         <p><?php echo str_replace("https://www.csfoy.ca/programmes/tous-les-programmes/programmes-techniques/techniques-dintegration-multimedia-web-et-apps/", "", $grillecours->post_content); ?></p>
         <a href="https://www.csfoy.ca/programmes/tous-les-programmes/programmes-techniques/techniques-dintegration-multimedia-web-et-apps/">Site du cégep</a>
         <p>Pour télécharger la grille de cours du programme</p>
-        <a href="#">Grille de cours</a>
+        <a href="<?php echo get_template_directory_uri();?>../../../uploads/2022/03/grille_cours_TIM.pdf">Grille de cours</a>
     </div>
 
     <iframe class="videoTim" src="https://www.youtube.com/embed/qfcalITCASk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

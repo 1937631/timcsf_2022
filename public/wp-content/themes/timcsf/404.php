@@ -1,6 +1,6 @@
 <?php
 get_header();
-echo "404.php" ?>
+ ?>
 
 <main class="page__404">
     <div>

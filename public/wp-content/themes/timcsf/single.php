@@ -1,5 +1,5 @@
 <?php get_header();
-echo "single.php";
+
 
 $argsFinissants = array(
     'post_type' => 'diplomes',
