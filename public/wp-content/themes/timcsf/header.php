@@ -2,16 +2,19 @@
 <html <?php language_attributes(); ?> >
 <head>
     <title>
-        <?php bloginfo('name');
+        <?php ;
         if(is_home() || is_front_page()){?>
-        | <?php bloginfo('description');
-        } else{ ?>
-        | <?php wp_title("", true);
-        } ?>
+        <?php bloginfo('description'); ?> |
+        <?php } else{ ?>
+        <?php wp_title("", true); ?> |
+        <?php }
+        bloginfo('name')?>
     </title>
     <link rel="shortcut icon" type="image/png" href="<?php echo get_template_directory_uri();?>../../../uploads/2022/03/logoTim_w32.png"/>
     <meta charset="<?php bloginfo('charset')?>"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Retrouvez toute l'information à propos des Techniques d'intégration multimédia du Cégep de Sainte-Foy au même endroit, le site officiel de la TIM!" />
+    <meta name="keywords" content="tim, intégration, multimédia, web, apps, cégep, sainte-foy, technique, informatique, officiel" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/liaisons/css/styles.css"/>
     <script type="text/javascript">
         function menuBurger() {
@@ -40,7 +43,7 @@
 </head>
 <body>
 <header class="entete">
-    <img class="logo" src="<?php echo get_template_directory_uri();?>../../../uploads/2022/02/logoTim.png" alt="logo_tim">
+    <a href="http://localhost/timcsf_2022/public/""><img class="logo" src="<?php echo get_template_directory_uri();?>../../../uploads/2022/02/logoTim.png" alt="logo_tim"></a>
     <img class="menu__hamburger" src="<?php echo get_template_directory_uri();?>../../../uploads/2022/02/menuBurger.png" alt="menu_hamburger" onclick="menuBurger()">
     <div>
         <img src="<?php echo get_template_directory_uri();?>/liaisons/images/_MG_8408.jpg" alt="banniere">

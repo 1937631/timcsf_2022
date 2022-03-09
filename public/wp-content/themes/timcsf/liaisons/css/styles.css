@@ -967,7 +967,7 @@ body {
   margin: 10px 20px 10px 0;
   width: 50px;
 }
-@media (min-width: 600px) {
+@media (min-width: 1400px) {
   .entete .menu__hamburger {
     display: none;
   }
@@ -980,6 +980,7 @@ body {
   object-fit: cover;
   position: absolute;
   filter: brightness(35%);
+  height: 240px;
 }
 @media (min-width: 600px) {
   .entete div img {
@@ -1044,7 +1045,7 @@ body {
   left: 0;
   top: 70px;
 }
-@media (min-width: 600px) {
+@media (min-width: 1400px) {
   .ouvert, .ferme {
     top: 10px;
   }
@@ -1053,7 +1054,7 @@ body {
   list-style: none;
   padding-inline-start: 0;
 }
-@media (min-width: 600px) {
+@media (min-width: 1400px) {
   .ouvert ul, .ferme ul {
     margin: 0;
   }
@@ -1066,7 +1067,7 @@ body {
   background-color: white;
   transition: 0.2s;
 }
-@media (min-width: 600px) {
+@media (min-width: 1400px) {
   .ouvert ul li, .ferme ul li {
     width: 15%;
     display: inline-block;
@@ -1077,7 +1078,7 @@ body {
   background-color: #2B5BA1;
   cursor: pointer;
 }
-@media (min-width: 600px) {
+@media (min-width: 1400px) {
   .ouvert ul li:hover, .ferme ul li:hover {
     background-color: white;
   }
@@ -1086,7 +1087,7 @@ body {
   color: white;
   text-decoration: underline;
 }
-@media (min-width: 600px) {
+@media (min-width: 1400px) {
   .ouvert ul li:hover a, .ferme ul li:hover a {
     color: #2B5BA1;
   }
@@ -1107,7 +1108,7 @@ body {
 .ferme {
   opacity: 1;
 }
-@media (max-width: 600px) {
+@media (max-width: 1400px) {
   .ferme {
     opacity: 0;
     visibility: hidden;
@@ -1458,6 +1459,7 @@ body {
   transition: 0.2s;
 }
 .page__formation .listeEmplois ul li:hover {
+  cursor: pointer;
   background-color: #2B5BA1;
   color: white;
 }

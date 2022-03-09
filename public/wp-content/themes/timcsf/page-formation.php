@@ -214,9 +214,9 @@ function clean($string) {
     <div class="grilleCours">
         <h3><?php echo $grillecours->post_title; ?></h3>
         <p><?php echo str_replace("https://www.csfoy.ca/programmes/tous-les-programmes/programmes-techniques/techniques-dintegration-multimedia-web-et-apps/", "", $grillecours->post_content); ?></p>
-        <a href="https://www.csfoy.ca/programmes/tous-les-programmes/programmes-techniques/techniques-dintegration-multimedia-web-et-apps/">Site du cégep</a>
+        <a target="_blank" href="https://www.csfoy.ca/programmes/tous-les-programmes/programmes-techniques/techniques-dintegration-multimedia-web-et-apps/">Site du cégep</a>
         <p>Pour télécharger la grille de cours du programme</p>
-        <a href="<?php echo get_template_directory_uri();?>../../../uploads/2022/03/grille_cours_TIM.pdf">Grille de cours</a>
+        <a target="_blank" href="<?php echo get_template_directory_uri();?>../../../uploads/2022/03/grille_cours_TIM.pdf">Grille de cours</a>
     </div>
 
     <iframe class="videoTim" src="https://www.youtube.com/embed/qfcalITCASk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -252,7 +252,7 @@ function clean($string) {
     <div class="inscription">
         <h3>Convaicu.e? Inscris-toi!</h3>
         <p>Les demandes d’admission au programme TIM sont reçues avant le 1er mars de chaque année (1er tour), le 1er mai (2e tour), le 1er juin (3e tour) et le 1er août (4e tour). </p> <p>Pour compléter ta demande d’admission à notre programme, tu dois t’adresser au Service régional d’admission au collégial de Québec (SRACQ)</p>
-        <a href="https://www.sracq.qc.ca/">Je m'inscris</a>
+        <a target="_blank" href="https://www.sracq.qc.ca/">Je m'inscris</a>
     </div>
         </div>
     <?php
@@ -272,7 +272,7 @@ function clean($string) {
 
 
                         <ul>
-                            <img src="<?php echo get_template_directory_uri();?>../../../uploads/2022/02/<?php echo $nomChange;?>.jpg"/>
+                            <img src="<?php echo get_template_directory_uri();?>../../../uploads/2022/02/<?php echo $nomChange;?>.jpg" alt="photoTemoin"/>
                             <li><?php echo get_field("temoin");?></li>
                             <li><?php echo get_field("titre_poste");?></li>
                             <li><?php echo get_field("entreprise");?></li>

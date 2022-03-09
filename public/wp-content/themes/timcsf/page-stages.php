@@ -49,7 +49,7 @@ $stages = get_post(61);
                             Il s'agit d'un stage rémunéré. Les stages rémunérés sont admissibles à des crédits d'impôt avantageux.</p>
                     </li>
                     <li>
-                        Consultez le <a href="<?php echo get_page_link( get_page_by_title( "Les projets" )->ID ); ?>">profil des compétences de nos étudiant.e.s</a> pour déterminer le stage à offrir.
+                        Consultez le <a target="_blank" href="<?php echo get_template_directory_uri();?>../../../uploads/2022/03/profilCompetences_2022.pdf">profil des compétences de nos étudiant.e.s</a> pour déterminer le stage à offrir.
                     </li>
                     <li>
                         Contactez <a href="<?php echo get_page_link( get_page_by_title( "Nous joindre" )->ID); ?>?ID=<?php echo $post_object->ID; ?>">

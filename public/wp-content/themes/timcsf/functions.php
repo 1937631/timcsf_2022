@@ -8,7 +8,15 @@ if (function_exists('register_nav_menus')) {
         )
     );
 }
-
+add_filter( 'intermediate_image_sizes_advanced', 'prefix_remove_default_images' );
+function prefix_remove_default_images( $sizes ) {
+    unset( $sizes['thumbnail']); // 150px
+    unset( $sizes['medium']); // 300px
+    unset( $sizes['large']); // 1024px
+    unset( $sizes['medium_large']); // 768px
+    unset( $sizes['1536x1536'] );
+    return $sizes;
+}
 //Déclaration du type d'article personnalisé des responsables****************************
 function tim_responsable_custom_post() {
 

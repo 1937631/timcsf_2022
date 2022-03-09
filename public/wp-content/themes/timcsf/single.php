@@ -52,7 +52,7 @@ function clean($string) {
             <div class="conteneur__visionneuse">
                 <div class="container">
                     <!-- Expanded image -->
-                    <img src="<?php echo get_template_directory_uri();?>../../../uploads/2022/02/prj<?php the_field('id'); ?>_01.jpg" id="expandedImg" style="width:100%">
+                    <img src="<?php echo get_template_directory_uri();?>../../../uploads/2022/02/prj<?php the_field('id'); ?>_01.jpg" id="expandedImg" style="width:100%" alt="grandeImage">
                 </div>
 
                 <div class="row" id="visionneuseImagesProjet">
@@ -82,7 +82,7 @@ function clean($string) {
                 }
                 ?>
                 </ul>
-                <?php if(get_field('url') !== "") { ?>
+                <?php if(get_field('url') != "") { ?>
                         <h3>Retrouvez le projet ici:</h3>
                         <a class="lienProjet" href="<?php the_field('url');?>"><?php the_title() ?></a>
                 <?php } ?>

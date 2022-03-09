@@ -9,9 +9,10 @@
     <div class="joignezNous">
     <h3>Trouvez les TIM sur:</h3>
     <ul class="liensReseauxSociaux">
-        <li><a href="https://www.facebook.com/timcsf"><img src="<?php echo get_template_directory_uri(); ?>/liaisons/images/facebook.png" alt="logoFacebook"></a></li>
-        <li><a href="https://twitter.com/timcsf"><img src="<?php echo get_template_directory_uri(); ?>/liaisons/images/twitter.png" alt="logoTwitter"></a></li>
-        <li><a href="https://www.linkedin.com/groups/2211970"><img src="<?php echo get_template_directory_uri(); ?>/liaisons/images/linkedin.png" alt="logoLinkedIn"></a></li>
+        <li><a href="https://www.facebook.com/timcsf" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/liaisons/images/facebook.png" alt="logoFacebook" ></a></li>
+        <li><a href="https://twitter.com/timcsf" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/liaisons/images/twitter.png" alt="logoTwitter"></a></li>
+        <li><a href="https://www.linkedin.com/groups/2211970" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/liaisons/images/linkedin.png" alt="logoLinkedIn"></a></li>
+        <li><a href="https://www.instagram.com/timcsf/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/liaisons/images/instagram.png" alt="logoInstagram"></a></li>
     </ul>
 
     </div>

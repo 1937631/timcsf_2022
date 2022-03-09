@@ -23,7 +23,7 @@ get_header(); ?>
             $nomComplet = get_the_title();
             $nomReformate = clean($nomComplet);
             ?>
-                    <img src="<?php echo get_template_directory_uri();?>../../../uploads/2022/02/<?php echo $nomReformate; ?>_1.jpg" id="expandedImg">
+                    <img alt="imageFinissant" src="<?php echo get_template_directory_uri();?>../../../uploads/2022/02/<?php echo $nomReformate; ?>_1.jpg" id="expandedImg">
 
             <div class="texte__finissant">
                 <h3>Présentation:</h3>
